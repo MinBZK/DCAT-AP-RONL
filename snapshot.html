@@ -43,7 +43,7 @@ dfn{cursor:pointer}
   
   
 <script>document.title = respecConfig.title</script>
-<title>titleText 0.0.3</title>
+<title>DCAT AP RONL (concept)</title>
   
 <title>Default</title>
   
@@ -121,21 +121,7 @@ ul.index code{color:inherit}
 #index-defined-here .print-only{display:initial}
 }
 </style>
-<meta name="description" content="Tekst">
-<style>
-.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;background:#fafafa}
-.hljs-comment,.hljs-quote{color:#717277;font-style:italic}
-.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4}
-.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;font-weight:700}
-.hljs-literal{color:#0b76c5}
-.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c}
-.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01}
-.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801}
-.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3}
-.hljs-emphasis{font-style:italic}
-.hljs-strong{font-weight:700}
-.hljs-link{text-decoration:underline}
-</style>
+<meta name="description" content="Deze specificatie is onderdeel van regels.overheid.nl.">
 <style>
 
   .sidelabel {
@@ -148,7 +134,7 @@ ul.index code{color:inherit}
     color: white;
     white-space: nowrap;
     z-index: 1;
-    background-color: #154273;
+    background-color: #39870c;
   }
 </style>
 <script type="text/javascript">
@@ -160,9 +146,9 @@ ul.index code{color:inherit}
   }
 </style>
 <script id="initialUserConfig" type="application/json">{
-  "nl_organisationName": "Logius",
+  "nl_organisationName": "MinBZK",
   "nl_organisationStylesURL": "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-  "nl_organisationPublishURL": "https://gitdocumentatie.logius.nl/publicatie/",
+  "nl_organisationPublishURL": "https://regels.overheid.nl/publicaties/",
   "logos": [
     {
       "src": "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
@@ -178,37 +164,23 @@ ul.index code{color:inherit}
   ],
   "latestVersion": [
     "nl_organisationPublishURL",
-    "pubDomain",
-    "/",
     "shortName"
   ],
   "thisVersion": [
     "nl_organisationPublishURL",
-    "pubDomain",
-    "/",
-    "specStatus",
-    "-",
-    "specType",
-    "-",
     "shortName",
-    "-",
-    "publishDate"
+    "/v",
+    "publishVersion"
   ],
   "prevVersion": [
     "nl_organisationPublishURL",
-    "pubDomain",
-    "/",
-    "previousMaturity",
-    "-",
-    "specType",
-    "-",
     "shortName",
-    "-",
-    "previousPublishDate"
+    "/v",
+    "previousPublishVersion"
   ],
   "useLogo": true,
   "useLabel": true,
-  "license": "cc-by",
+  "license": "cc0",
   "addSectionLinks": true,
   "localizationStrings": {
     "en": {
@@ -297,44 +269,150 @@ ul.index code{color:inherit}
       "authors": [
         "T. Preston-Werner"
       ],
-      "date": "June 2013",
-      "id": "semver"
+      "date": "June 2013"
+    },
+    "ALGO": {
+      "href": "https://algoritmes.overheid.nl/",
+      "title": "Algoritmeregister",
+      "authors": [
+        "ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+      ],
+      "date": "December 2022",
+      "id": "algo"
+    },
+    "ALGO-STAND": {
+      "href": "https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json",
+      "title": "Nederlandse Algoritme MetaStandaard",
+      "authors": [
+        "ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+      ],
+      "date": "December 2022",
+      "id": "algo-stand"
+    },
+    "DCATAPDONL_11": {
+      "href": "https://dcat-ap-donl.readthedocs.io/en/latest/",
+      "title": "DCAT-AP-DONL 1.1",
+      "authors": [
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties."
+      ],
+      "date": "",
+      "id": "dcatapdonl_11"
+    },
+    "DONL": {
+      "href": "https://data.overheid.nl",
+      "title": "data.overheid.nl",
+      "authors": [
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties."
+      ],
+      "date": "",
+      "id": "donl"
+    },
+    "RONL": {
+      "href": "https://regels.overheid.nl",
+      "title": "regels.overheid.nl",
+      "authors": [
+        "ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+      ],
+      "date": "",
+      "id": "ronl"
+    },
+    "LM": {
+      "href": "https://regels.overheid.nl/publicaties/de-legitimaat",
+      "title": "De LegitiMaat",
+      "authors": [
+        "ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+      ],
+      "date": "Juli 2022",
+      "id": "lm"
+    },
+    "UPL": {
+      "href": "https://standaarden.overheid.nl/upl",
+      "title": "Uniforme Productnamenlijst",
+      "authors": [
+        "Logius."
+      ],
+      "date": "",
+      "id": "upl"
+    },
+    "Volledige-UPL": {
+      "href": "https://standaarden.overheid.nl/owms/oquery/UPL-actueel.plain",
+      "title": "Volledige UPL Actueel",
+      "authors": [
+        "Logius."
+      ],
+      "date": "",
+      "id": "volledige-upl"
+    },
+    "DATA_EU": {
+      "href": "https://data.europa.eu/en",
+      "title": "data.europa.eu",
+      "authors": [
+        "The Publications Office of the European Union."
+      ],
+      "date": "",
+      "id": "data_eu"
+    },
+    "DCATAP_21": {
+      "href": "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
+      "title": "DCAT-AP 2.1",
+      "authors": [
+        "The Publications Office of the European Union."
+      ],
+      "date": "",
+      "id": "dcatap_21"
+    },
+    "DCAT_20": {
+      "href": "https://www.w3.org/TR/vocab-dcat-2/",
+      "title": "Data Catalog Vocabulary (DCAT) - Version 2",
+      "authors": [
+        "World Wide Web Consortium"
+      ],
+      "date": "February 2020",
+      "id": "dcat_20"
     }
   },
-  "specStatus": "DEF",
+  "specStatus": "WV",
   "specType": "HR",
-  "pubDomain": "dk",
-  "shortName": "template",
-  "publishDate": "2023-06-21",
-  "publishVersion": "0.0.3",
-  "previousPublishVersion": "0.0.2",
-  "previousPublishDate": "2022-06-24",
+  "pubDomain": "ronl",
+  "shortName": "dcat-ap-ronl",
+  "publishDate": "2023-12-02",
+  "publishVersion": "0.1.0",
+  "previousPublishVersion": "",
+  "previousPublishDate": "",
   "previousMaturity": "WV",
-  "title": "titleText",
+  "title": "DCAT AP RONL (concept)",
+  "subtitle": "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
   "content": {
     "ch01": "informative",
     "ch02": "",
-    "mermaid": ""
+    "ch03": "",
+    "ch04": "",
+    "ch05": ""
   },
   "editors": [
     {
-      "name": "Logius Standaarden",
-      "company": "Logius",
-      "companyURL": "https://github.com/Logius-standaarden"
+      "name": "Mildo van Staden",
+      "mailto": "Mildo.Staden@minbzk.nl",
+      "company": "BZK",
+      "companyURL": "https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties",
+      "url": "mailto:Mildo.Staden@minbzk.nl"
     }
   ],
   "authors": [
     {
-      "name": "Logius Standaarden",
-      "company": "Logius",
-      "companyURL": "https://github.com/Logius-standaarden"
+      "name": "Hayo Schreijer",
+      "url": "https://www.dexes.nl"
+    },
+    {
+      "name": "Steven Gort",
+      "url": "https://www.ictu.nl"
     }
   ],
-  "github": "https://github.com/Logius-standaarden/ReSpec-template",
+  "github": "https://github.com/MinBZK/dcat-ap-ronl/",
   "alternateFormats": [
     {
       "label": "pdf",
-      "uri": "template.pdf"
+      "uri": "DCAT-AP-RONL.pdf"
     }
   ]
 }</script>
@@ -342,97 +420,269 @@ ul.index code{color:inherit}
 
 <body class="h-entry toc-inline"><div class="head">
     <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg" width="44">
-  </a> <h1 id="title" class="title">titleText 0.0.3</h1>
-    
+  </a> <h1 id="title" class="title">DCAT AP RONL (concept)</h1>
+    <h2 id="subtitle" class="subtitle">Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl</h2>
     <h2>
-      Logius Handreiking<br>
-      Vastgestelde versie
-      <time class="dt-published" datetime="2023-06-21">21 juni 2023</time>
+      MinBZK Handreiking<br>
+      Werkversie
+      <time class="dt-published" datetime="2023-12-02">07 december 2023</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://gitdocumentatie.logius.nl/publicatie/dk/def-hr-template-20230621">https://gitdocumentatie.logius.nl/publicatie/dk/def-hr-template-20230621</a>
+              <a class="u-url status" href="https://minbzk.github.io/dcat-ap-ronl/">https://minbzk.github.io/dcat-ap-ronl/</a>
             </dd>
       <dt>Laatst gepubliceerde versie:</dt><dd>
-              <a href="https://gitdocumentatie.logius.nl/publicatie/dk/template">https://gitdocumentatie.logius.nl/publicatie/dk/template</a>
+              <a href="https://regels.overheid.nl/publicaties/dcat-ap-ronl">https://regels.overheid.nl/publicaties/dcat-ap-ronl</a>
             </dd>
-      <dt>Laatste werkversie:</dt><dd><a href="https://logius-standaarden.github.io/ReSpec-template/">https://logius-standaarden.github.io/ReSpec-template/</a></dd>
+      <dt>Laatste werkversie:</dt><dd><a href="https://minbzk.github.io/dcat-ap-ronl/">https://minbzk.github.io/dcat-ap-ronl/</a></dd>
       
       
       
-      <dt>Vorige versie:</dt><dd><a href="https://gitdocumentatie.logius.nl/publicatie/dk/wv-hr-template-20220624">https://gitdocumentatie.logius.nl/publicatie/dk/wv-hr-template-20220624</a></dd>
+      
       
       <dt>Redacteur:</dt>
       <dd class="editor p-author h-card vcard">
-    <span class="p-name fn">Logius Standaarden</span> (<a class="p-org org h-org" href="https://github.com/Logius-standaarden">Logius</a>)
+    <a class="ed_mailto u-email email p-name" href="mailto:Mildo.Staden@minbzk.nl">Mildo van Staden</a> (<a class="p-org org h-org" href="https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties">BZK</a>)
   </dd>
       
-      <dt>Auteur:</dt><dd class="editor p-author h-card vcard">
-    <span class="p-name fn">Logius Standaarden</span> (<a class="p-org org h-org" href="https://github.com/Logius-standaarden">Logius</a>)
+      <dt>Auteurs:</dt><dd class="editor p-author h-card vcard">
+    <a class="u-url url p-name fn" href="https://www.dexes.nl">Hayo Schreijer</a>
+  </dd><dd class="editor p-author h-card vcard">
+    <a class="u-url url p-name fn" href="https://www.ictu.nl">Steven Gort</a>
   </dd>
       <dt>Doe mee:</dt><dd>
-    <a href="https://github.com/Logius-standaarden/ReSpec-template/">GitHub Logius-standaarden/ReSpec-template</a>
+    <a href="https://github.com/MinBZK/dcat-ap-ronl/">GitHub MinBZK/dcat-ap-ronl</a>
   </dd><dd>
-    <a href="https://github.com/Logius-standaarden/ReSpec-template/issues/">Dien een melding in</a>
+    <a href="https://github.com/MinBZK/dcat-ap-ronl/issues/">Dien een melding in</a>
   </dd><dd>
-    <a href="https://github.com/Logius-standaarden/ReSpec-template/commits/">Revisiehistorie</a>
+    <a href="https://github.com/MinBZK/dcat-ap-ronl/commits/">Revisiehistorie</a>
   </dd><dd>
-    <a href="https://github.com/Logius-standaarden/ReSpec-template/pulls/">Pull requests</a>
+    <a href="https://github.com/MinBZK/dcat-ap-ronl/pulls/">Pull requests</a>
   </dd>
     </dl>
     
     
     <p>
           Dit document is ook beschikbaar in dit niet-normatieve formaat:
-          <a rel="alternate" href="template.pdf">pdf</a>
+          <a rel="alternate" href="DCAT-AP-RONL.pdf">pdf</a>
         </p>
     <p class="copyright">
           Dit document valt onder de volgende licentie: 
-          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
+          <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" class="subfoot"><img class="license" src="https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-zero.svg" alt="Logo Creative Commons 0 Public Domain Dedication"><br> Creative Commons 0 Public Domain Dedication</a>
         </p>
     <hr title="Separator for header">
   </div>
-  <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Tekst</p>
-</section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a></li><li class="tocline"><a class="tocxref" href="#meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">2.1 </bdi>Definities</a></li><li class="tocline"><a class="tocxref" href="#afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">2.3 </bdi>Referenties</a></li><li class="tocline"><a class="tocxref" href="#optioneel"><bdi class="secno">2.4 </bdi>Optioneel</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">4. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">5. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav><section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
-<p>Bijvoorbeeld een introductie.</p>
-<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="3"><span>Noot</span><span class="issue-label">: index</span></div><p class="">
-Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config.js</code>.
-</p></div></section><section id="meer-inhoud"><div class="header-wrapper"><h2 id="x2-meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</h2><a class="self-link" href="#meer-inhoud" aria-label="Permalink for Section 2."></a></div>
-<section id="definities"><div class="header-wrapper"><h3 id="x2-1-definities"><bdi class="secno">2.1 </bdi>Definities</h3><a class="self-link" href="#definities" aria-label="Permalink for Section 2.1"></a></div>
-<p><dfn id="dfn-definitie" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">Definitie</dfn>: Een definitie is een beschrijving van een woord. Een ander woord voor definitie is betekenis of beschrijving.</p>
-</section><section id="afbeeldingen"><div class="header-wrapper"><h3 id="x2-2-afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</h3><a class="self-link" href="#afbeeldingen" aria-label="Permalink for Section 2.2"></a></div>
-<p>Afbeeldingen krijgen een nummer en vermelding in de figurenlijst <a href="#tof" data-matched-text="[[[#tof]]]" class="sec-ref"><bdi class="secno">5. </bdi>Lijst met figuren</a>.</p>
+  <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze specificatie is onderdeel van <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite>.</p>
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="3"><span>Noot</span><span class="issue-label">: scope</span></div><p class="">
+Waar we het in deze specificatie over <b>regels</b> hebben, bedoelen we óók <b>algoritmes</b>.</p></div>
+
+<p>Doel van dit DCAT profiel is om beschrijvingen van regels te verzamelen in <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> die compatibel zijn met het DCAT-AP-DONL profiel voor <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>.</p>
+<p>Het volgende diagram geeft een overzicht van de basis functionaliteit van het beoogde DCAT-AP-RONL profiel en dient als overzicht van de te definieren beschrijvingen.</p>
 <p>
-      </p><figure id="fig-onderschrift">
-        <img src="media/Bomos_levenscyclus.svg" alt="Tekstueel alternatief voor toegankelijkheid">
-        <figcaption><a class="self-link" href="#fig-onderschrift">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Onderschrift</span></figcaption>
+      </p><figure id="fig-klassen-en-relaties">
+        <img src="./media/DCAT-AP-RONL.jpg" alt="klassen-en-relaties">
+        <figcaption><a class="self-link" href="#fig-klassen-en-relaties">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Klassen en relaties</span></figcaption>
       </figure>
     <p></p>
-</section><section id="referenties"><div class="header-wrapper"><h3 id="x2-3-referenties"><bdi class="secno">2.3 </bdi>Referenties</h3><a class="self-link" href="#referenties" aria-label="Permalink for Section 2.3"></a></div>
-<p>Referentie uit locale lijst [<cite><a class="bibref" data-link-type="biblio" href="#bib-semver" title="Semantic Versioning 2.0.0">SemVer</a></cite>]. Lijst staat in <code>organisation-config.js</code>. Alleen referenties die in de tekst voorkomen worden getoond.</p>
-<p>We gebruiken een <a href="#dfn-definitie" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-definitie-1">definitie</a> om een woord te omschrijven.</p>
-</section><section id="optioneel"><div class="header-wrapper"><h3 id="x2-4-optioneel"><bdi class="secno">2.4 </bdi>Optioneel</h3><a class="self-link" href="#optioneel" aria-label="Permalink for Section 2.4"></a></div>
-<p>De onderstaande secties (<em>Conformiteit</em> e.d.) zijn optioneel, zie <code>index.html</code>:</p>
-<pre><code aria-busy="false" class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"abstract"</span> <span class="hljs-attr">data-include-format</span>=<span class="hljs-string">"markdown"</span> <span class="hljs-attr">data-include</span>=<span class="hljs-string">"abstract.md"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"sotd"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><span class="hljs-comment">&lt;!-- Wordt automatisch gevuld --&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">data-include-format</span>=<span class="hljs-string">"markdown"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"informative"</span> <span class="hljs-attr">data-include</span>=<span class="hljs-string">"ch01.md"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">data-include-format</span>=<span class="hljs-string">"markdown"</span> <span class="hljs-attr">data-include</span>=<span class="hljs-string">"ch02.md"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-  <span class="hljs-comment">&lt;!-- Hieronder optionele secties. Worden automatisch gevuld --&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">'conformance'</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">'tof'</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"index"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-</code></pre>
-</section></section><section id="mermaid-diagram"><div class="header-wrapper"><h2 id="x3-mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</h2><a class="self-link" href="#mermaid-diagram" aria-label="Permalink for Section 3."></a></div>
-<figure id="fig-mermaid-voorbeeld">
+<p>Het is gebaseerd op het <cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite> dat op zijn beurt gebaseerd is op de <cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> en de eerdere data.overheid.nl versie <cite><a data-matched-text="[[[DCATAPDONL_11]]]" href="https://dcat-ap-donl.readthedocs.io/en/latest/">DCAT-AP-DONL 1.1</a></cite>.</p>
+</section>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie"><bdi class="secno">1.1 </bdi>Introductie</a></li><li class="tocline"><a class="tocxref" href="#algoritmeregister"><bdi class="secno">1.2 </bdi>Algoritmeregister</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nederlandse-algoritme-transparantie-standaard"><bdi class="secno">1.2.1 </bdi>Nederlandse Algoritme Transparantie Standaard</a></li><li class="tocline"><a class="tocxref" href="#registratie"><bdi class="secno">1.2.2 </bdi>Registratie</a></li><li class="tocline"><a class="tocxref" href="#linked-open-data"><bdi class="secno">1.2.3 </bdi>Linked Open Data</a></li></ol></li><li class="tocline"><a class="tocxref" href="#producten-en-diensten"><bdi class="secno">1.3 </bdi>Producten en diensten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#de-uniforme-productnamenlijst-upl"><bdi class="secno">1.3.1 </bdi>De Uniforme Productnamenlijst (UPL)</a></li><li class="tocline"><a class="tocxref" href="#de-actuele-en-historische-upl"><bdi class="secno">1.3.2 </bdi>De actuele en historische UPL</a></li></ol></li><li class="tocline"><a class="tocxref" href="#voorzieningen"><bdi class="secno">1.4 </bdi>Voorzieningen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#harmonisator"><bdi class="secno">1.4.1 </bdi>Harmonisator</a></li><li class="tocline"><a class="tocxref" href="#mvp"><bdi class="secno">1.4.2 </bdi>MVP</a></li><li class="tocline"><a class="tocxref" href="#demo"><bdi class="secno">1.4.3 </bdi>Demo</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#overzicht-van-het-toepassingsprofiel"><bdi class="secno">2. </bdi>Overzicht van het toepassingsprofiel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-2-0"><bdi class="secno">2.1 </bdi>DCAT 2.0</a></li><li class="tocline"><a class="tocxref" href="#relatie-andere-profielen"><bdi class="secno">2.2 </bdi>Relatie andere profielen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wetsanalyse"><bdi class="secno">3. </bdi>Wetsanalyse</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uitnodiging-om-bij-te-dragen"><bdi class="secno">3.1 </bdi>Uitnodiging om bij te dragen</a></li><li class="tocline"><a class="tocxref" href="#regelspraak"><bdi class="secno">3.2 </bdi>Regelspraak</a></li><li class="tocline"><a class="tocxref" href="#alef"><bdi class="secno">3.3 </bdi>ALEF</a></li><li class="tocline"><a class="tocxref" href="#norm-engineering"><bdi class="secno">3.4 </bdi>Norm engineering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#flint-frames"><bdi class="secno">3.4.1 </bdi>FLINT-frames</a></li><li class="tocline"><a class="tocxref" href="#eflint"><bdi class="secno">3.4.2 </bdi>eFLINT</a></li></ol></li><li class="tocline"><a class="tocxref" href="#placeholder-rulespeak"><bdi class="secno">3.5 </bdi>placeholder RuleSpeak®</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#rulespeak"><bdi class="secno">3.5.1 </bdi>RuleSpeak®</a></li></ol></li><li class="tocline"><a class="tocxref" href="#placeholder-concordia-legal"><bdi class="secno">3.6 </bdi>placeholder Concordia Legal</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#expliciete-declaratieve-regels"><bdi class="secno">3.6.1 </bdi>Expliciete declaratieve regels</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#klassen"><bdi class="secno">4. </bdi>Klassen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie-0"><bdi class="secno">4.1 </bdi>Introductie</a></li><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">4.2 </bdi>Aanpak</a></li></ol></li><li class="tocline"><a class="tocxref" href="#waardelijsten"><bdi class="secno">5. </bdi>Waardelijsten</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</a></li></ol></li></ol></nav><section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
+<section id="introductie"><div class="header-wrapper"><h3 id="x1-1-introductie"><bdi class="secno">1.1 </bdi>Introductie</h3><a class="self-link" href="#introductie" aria-label="Permalink for Section 1.1"></a></div>
+<p>De Data Catalog vocabulaire (DCAT) is een standaard met als doel gepubliceerde gegevens en gegevensdiensten te beschrijven. Daardoor kunnen potentiële gebruikers beoordelen of de aangeboden gegevens voor hen relevant zijn en geschikt zijn voor hun gebruik. Dit selectieproces kan ook (gedeeltelijk) automatisch uitgevoerd worden. De geselecteerde bronnen kunnen dankzij de DCAT beschrijvingen efficiënt benaderd worden voor gebruik, of na detailonderzoek alsnog worden verworpen.</p>
+<p>Daarnaast is het gebruikelijk om DCAT beschrijvingen op centrale systemen te verzamelen – bekend als "harvesting" – om overzichten te maken van alle aangeboden informatie in een bepaald domein, bijvoorbeeld een land of volgens andere criteria. Deze centrale DCAT registers maken het eenvoudig voor gebruikers om door een groot aanbod te zoeken naar nuttige gegevens en data services.</p>
+<p><cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite> is zo'n DCAT dataportaal van de Nederlandse overheid. Een voorbeeld van een ander portaal is die van de EU, namelijk <cite><a data-matched-text="[[[DATA_EU]]]" href="https://data.europa.eu/en">data.europa.eu</a></cite>. De EU leest de DCAT data van data.overheid.nl, daardoor zijn alle datasets van data.overheid.nl ook op data.europa.eu te vinden. Het gebruik van DCAT maakt dit soort cummulatieve verzamelingen mogelijk.</p>
+<p>Het doel van het DCAT-AP-DONL profiel is om betere beschrijvingen te verzamelen in <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>. Het is ietwat uitgebreider dan de onderliggende <cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite> en <cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> profielen van het W3C, zodat het vinden van de juiste gegevens en gegevensdiensten nog makkelijker wordt.</p>
+<div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Noot</span><span class="issue-label">: bron</span></div><p class="">
+Deze tekst is de introductie van het <a href="https://dataoverheid.github.io/dcat-ap-donl/" target="_blank">DCAT-AP-DONL 2.0</a> toepassingsprofiel .
+</p></div>
 
-<pre><svg id="diagram-1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 128.234375px;" viewBox="0 0 128.234375 230"><style>
-#diagram-1 {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#diagram-1 .error-icon{fill:#552222;}#diagram-1 .error-text{fill:#552222;stroke:#552222;}#diagram-1 .edge-thickness-normal{stroke-width:2px;}#diagram-1 .edge-thickness-thick{stroke-width:3.5px;}#diagram-1 .edge-pattern-solid{stroke-dasharray:0;}#diagram-1 .edge-pattern-dashed{stroke-dasharray:3;}#diagram-1 .edge-pattern-dotted{stroke-dasharray:2;}#diagram-1 .marker{fill:#333333;stroke:#333333;}#diagram-1 .marker.cross{stroke:#333333;}#diagram-1 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#diagram-1 .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#333;}#diagram-1 .cluster-label text{fill:#333;}#diagram-1 .cluster-label span{color:#333;}#diagram-1 .label text,#diagram-1 span{fill:#333;color:#333;}#diagram-1 .node rect,#diagram-1 .node circle,#diagram-1 .node ellipse,#diagram-1 .node polygon,#diagram-1 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#diagram-1 .node .label{text-align:center;}#diagram-1 .node.clickable{cursor:pointer;}#diagram-1 .arrowheadPath{fill:#333333;}#diagram-1 .edgePath .path{stroke:#333333;stroke-width:2.0px;}#diagram-1 .flowchart-link{stroke:#333333;fill:none;}#diagram-1 .edgeLabel{background-color:#e8e8e8;text-align:center;}#diagram-1 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#diagram-1 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#diagram-1 .cluster text{fill:#333;}#diagram-1 .cluster span{color:#333;}#diagram-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#diagram-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}
-</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M48.55859375,43.637195415583165L44.354817708333336,48.197662846319304C40.151041666666664,52.75813027705544,31.743489583333332,61.87906513852772,27.539713541666668,70.60619923593053C23.3359375,79.33333333333333,23.3359375,87.66666666666667,23.3359375,91.83333333333333L23.3359375,96" marker-end="url(#arrowhead14)" style="fill:none"></path><defs><marker id="arrowhead14" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M79.23046875,43.637195415583165L83.43424479166667,48.197662846319304C87.63802083333333,52.75813027705544,96.04557291666667,61.87906513852772,100.24934895833333,70.60619923593053C104.453125,79.33333333333333,104.453125,87.66666666666667,104.453125,91.83333333333333L104.453125,96" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M23.3359375,134L23.3359375,138.16666666666666C23.3359375,142.33333333333334,23.3359375,150.66666666666666,27.465494791666668,159.31328453561912C31.595052083333332,167.95990240457158,39.854166666666664,176.91980480914313,43.983723958333336,181.39975601142896L48.11328125,185.87970721371474" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M104.453125,134L104.453125,138.16666666666666C104.453125,142.33333333333334,104.453125,150.66666666666666,100.32356770833333,159.31328453561912C96.19401041666667,167.95990240457158,87.93489583333333,176.91980480914313,83.80533854166667,181.39975601142896L79.67578125,185.87970721371474" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-B" class="edgeLabel L-LS-A' L-LE-B"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-C" class="edgeLabel L-LS-A' L-LE-C"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-B-D" class="edgeLabel L-LS-B' L-LE-D"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-D" class="edgeLabel L-LS-C' L-LE-D"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(63.89453125,27)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-19" width="30.671875" height="38" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-9)"><foreignObject width="10.671875" height="18"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">A</div></foreignObject></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(23.3359375,115)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-19" width="30.671875" height="38" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-9)"><foreignObject width="10.671875" height="18"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">B</div></foreignObject></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(104.453125,115)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-19" width="31.5625" height="38" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-9)"><foreignObject width="11.5625" height="18"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">C</div></foreignObject></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(63.89453125,203)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-19" width="31.5625" height="38" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-9)"><foreignObject width="11.5625" height="18"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">D</div></foreignObject></g></g></g></g></g></g></svg></pre>
-<figcaption><a class="self-link" href="#fig-mermaid-voorbeeld">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Mermaid voorbeeld</span></figcaption>
-</figure></section>
+<p>Doel van dit DCAT profiel is om beschrijvingen van regels te verzamelen in <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> die compatibel zijn met het DCAT-AP-DONL profiel voor <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>.</p>
+<p>Dit toepassingsprofiel blijft in ontwikkeling. Commentaren, problemen, wensen e.d. kunnen als issue worden gemeld op de <a href="https://github.com/MinBZK/dcat-ap-ronl" target="_blank">Github pagina</a>.
+
+
+</p></section><section id="algoritmeregister"><div class="header-wrapper"><h3 id="x1-2-algoritmeregister"><bdi class="secno">1.2 </bdi>Algoritmeregister</h3><a class="self-link" href="#algoritmeregister" aria-label="Permalink for Section 1.2"></a></div>
+<section id="nederlandse-algoritme-transparantie-standaard"><div class="header-wrapper"><h4 id="x1-2-1-nederlandse-algoritme-transparantie-standaard"><bdi class="secno">1.2.1 </bdi>Nederlandse Algoritme Transparantie Standaard</h4><a class="self-link" href="#nederlandse-algoritme-transparantie-standaard" aria-label="Permalink for Section 1.2.1"></a></div>
+<p>De <cite><a data-matched-text="[[[ALGO-STAND]]]" href="https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json">Nederlandse Algoritme MetaStandaard</a></cite> is een gestandaardiseerde manier om informatie te verzamelen over hoe de overheid algoritmische tools gebruikt. Met deze standaard registreert de Nederlandse Overheid algoritmes.</p>
+</section><section id="registratie"><div class="header-wrapper"><h4 id="x1-2-2-registratie"><bdi class="secno">1.2.2 </bdi>Registratie</h4><a class="self-link" href="#registratie" aria-label="Permalink for Section 1.2.2"></a></div>
+<p>De overheid werkt steeds meer digitaal en gebruikt daarvoor steeds vaker algoritmes. Omdat digitalisering niet vanzelfsprekend goed gaat, werkt de overheid aan transparante en verantwoorde inzet van die algoritmes. Zodat de informatie over de algoritmes die de overheid gebruikt voor iedereen beschikbaar is: burgers, hun belangenbehartigers, de media en toezichthouders.</p>
+<p>Het ministerie van Binnenlandse Zaken en Koninkrijksrelaties bouwt door aan het <cite><a data-matched-text="[[[ALGO]]]" href="https://algoritmes.overheid.nl/">Algoritmeregister</a></cite> dat in december 2022 is gelanceerd.</p>
+<p>Het <cite><a data-matched-text="[[[ALGO]]]" href="https://algoritmes.overheid.nl/">Algoritmeregister</a></cite> is in ontwikkeling. De informatie verandert nog vaak. Nieuwe algoritmes worden toegevoegd en algoritmes worden geactualiseerd. Ook bouwt het ministerie van Binnenlandse Zaken en Koninkrijksrelaties steeds door aan het <cite><a data-matched-text="[[[ALGO]]]" href="https://algoritmes.overheid.nl/">Algoritmeregister</a></cite>. Dit doet het team op een open manier.</p>
+<p>Die open ontwikkeling betekent dat de inhoud door de tijd heen zal wijzigen, bijvoorbeeld:</p>
+<ul>
+<li>Er komen algoritmes bij of gaan algoritmes af</li>
+<li>De <cite><a data-matched-text="[[[ALGO-STAND]]]" href="https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json">Nederlandse Algoritme MetaStandaard</a></cite> wordt gewijzigd en/of uitgebreid</li>
+<li>De reeds gepubliceerde beschrijving van algoritmes wordt gewijzigd en/of uitgebreid.</li>
+</ul>
+<p>Een aantal overheidsorganisaties heeft op dit moment al algoritmes gepubliceerd. Het doel is om alle overheidsorganisaties met relevante algoritmes aangesloten te hebben. Uiteindelijk zal registratie ook wettelijk verplicht worden.</p>
+</section><section id="linked-open-data"><div class="header-wrapper"><h4 id="x1-2-3-linked-open-data"><bdi class="secno">1.2.3 </bdi>Linked Open Data</h4><a class="self-link" href="#linked-open-data" aria-label="Permalink for Section 1.2.3"></a></div>
+<p>Platform Linked Data Nederland (pldn) heeft obv een aantal best practices een praktische gids voor het publiceren van linked open data gemaakt. Een <a href="https://www.pldn.nl/wiki/BoekTNO/stappenplan">9-stappen Roadmap</a>. Er is een eerste poging gedaan om voor het Algoritmeregister die stappen te volgen. Tot nader order is de uitwerking daarvan in de Docusaurus van <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> gepubliceerd. Hier te vinden: <a href="https://regels.overheid.nl/docs/linked-data/Algoritmeregister">https://regels.overheid.nl/docs/linked-data/Algoritmeregister</a></p>
+</section></section><section id="producten-en-diensten"><div class="header-wrapper"><h3 id="x1-3-producten-en-diensten"><bdi class="secno">1.3 </bdi>Producten en diensten</h3><a class="self-link" href="#producten-en-diensten" aria-label="Permalink for Section 1.3"></a></div>
+<section id="de-uniforme-productnamenlijst-upl"><div class="header-wrapper"><h4 id="x1-3-1-de-uniforme-productnamenlijst-upl"><bdi class="secno">1.3.1 </bdi>De Uniforme Productnamenlijst (UPL)</h4><a class="self-link" href="#de-uniforme-productnamenlijst-upl" aria-label="Permalink for Section 1.3.1"></a></div>
+<p>De <cite><a data-matched-text="[[[UPL]]]" href="https://standaarden.overheid.nl/upl">Uniforme Productnamenlijst</a></cite> is een lijst met uniforme naamgeving voor de producten en diensten die de Nederlandse overheid biedt aan burgers en bedrijven. De nadruk daarbij ligt op producten en diensten waarbij er interactie met burgers en bedrijven is, zoals een aanvraag, melding of verplichting. Producten en diensten zoals onderhoud van de groenvoorziening of het wegennet zijn daarom niet in de UPL opgenomen. Iedere overheidsorganisatie is vrij om te bepalen wat haar producten en diensten zijn en welke naam zij daaraan geeft. Met name bij gemeenten zorgt dat voor een veelvoud aan producten en diensten, die eigenlijk in essentie hetzelfde zijn. Om de vindbaarheid en het hergebruik van productinformatie te verbeteren is de <cite><a data-matched-text="[[[UPL]]]" href="https://standaarden.overheid.nl/upl">Uniforme Productnamenlijst</a></cite> (UPL) ontwikkeld. De lijst zorgt voor synergie in het heterogene productaanbod. De uniforme productnamen worden gebruikt om op een eenduidige manier de productinformatie van de overheid in voorzieningen te integreren, ongeacht bestuurslaag, naamgeving of granulariteit.</p>
+</section><section id="de-actuele-en-historische-upl"><div class="header-wrapper"><h4 id="x1-3-2-de-actuele-en-historische-upl"><bdi class="secno">1.3.2 </bdi>De actuele en historische UPL</h4><a class="self-link" href="#de-actuele-en-historische-upl" aria-label="Permalink for Section 1.3.2"></a></div>
+<p>De actuele UPL vindt u hier: <cite><a data-matched-text="[[[Volledige-UPL]]]" href="https://standaarden.overheid.nl/owms/oquery/UPL-actueel.plain">Volledige UPL Actueel</a></cite>.</p>
+<p>Omdat het producten- en dienstenaanbod van de Nederlandse overheid regelmatig verandert, wordt de UPL vier keer per jaar bijgewerkt. Daarbij worden soms productnamen als ‘vervallen’ gemarkeerd. In sommige gevallen wordt de productnaam ‘opgevolgd’ door een nieuwe productnaam. Oude productnamen worden nooit weggegooid, maar blijven beschikbaar in de volledige historische productnamenlijst</p>
+</section></section><section id="voorzieningen"><div class="header-wrapper"><h3 id="x1-4-voorzieningen"><bdi class="secno">1.4 </bdi>Voorzieningen</h3><a class="self-link" href="#voorzieningen" aria-label="Permalink for Section 1.4"></a></div>
+<p>Voorzieningen, bij de overheid ook wel ‘regelingen’ genoemd, zijn alle vormen van ondersteuning aan inwoners die geboden worden door nationale of gemeentelijke overheden en charitatieve instellingen. Het vindbaar maken van voorzieningen en het vereenvoudigen van het doen van een aanvraag dragen bij aan het gebruik maken van deze voorzieningen.</p>
+<section id="harmonisator"><div class="header-wrapper"><h4 id="x1-4-1-harmonisator"><bdi class="secno">1.4.1 </bdi>Harmonisator</h4><a class="self-link" href="#harmonisator" aria-label="Permalink for Section 1.4.1"></a></div>
+<p>In het eerste halfjaar 2022 is er een onderzoek uitgevoerd naar een Gemeentelijk Gegevenswoordenboek (GGw). Daarbij werd een grote verscheidenheid aan gegevensstructuren zichtbaar op tal van plaatsen in de informatievoorziening van de overheid. De behoefte aan "harmonisatie" van al deze modellen kwam duidelijk naar voren, waartoe het concept van de "Harmonisator" is ontwikkeld. Ook de Voorzieningen zoals bedoeld door <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> steunen op gegevensstructuren. Het eindverslag van dat verkennend onderzoek naar het GGw is <a href="./media/Rapport-GGw-1-0.pdf">hier</a> te vinden.</p>
+</section><section id="mvp"><div class="header-wrapper"><h4 id="x1-4-2-mvp"><bdi class="secno">1.4.2 </bdi>MVP</h4><a class="self-link" href="#mvp" aria-label="Permalink for Section 1.4.2"></a></div>
+<p>We maakten een kleine Voorzieningen-applicatie en API, op grond van voorbeelden van de gemeente Vught. Zo wordt de samenhang zichtbaar tussen de aanpak van de "Harmonisator" en de ontwikkeling van een generiek bruikbare en duurzame Voorzieningen-applicatie, die aansluit op de principes en het gedachtegoed van <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite>. De kern hiervan is dat eerst de begrippen, relaties en definities helder zijn vastgelegd, als stevig fundament voor tal van toepassingen van gegevens- en informatiegebruik.</p>
+<p>De objecttypen en hun samenhang bij Voorzieningen. Een voorziening doorloopt een levenscyclus langs de weg: behoefte, ontwikkeling, aanbieding/promotie, aanvraag, gebruik, bijstelling en afbouw.</p>
+<ul>
+<li>Gegevens van organisaties en personen (actoren) kunnen uit het generieke gegevensmodel 'Samenwerken' (coöperatie, afkorting 'co') worden gehaald.</li>
+<li>De categorisering en clustering van voorzieningen kan volgens standaard thema-indelingen, b.v. van <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite> worden toegepast.</li>
+</ul>
+<p>Het model is voorbereid op het toepassen van regels op de beschikbaarheid van een voorziening (<cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite>).</p>
+<ul>
+<li>De gegevens over de rechten op een voorziening worden in de entiteit 'Voorziening_Regelset' opgenomen.</li>
+<li>De entiteit 'Ingezetene' fungeert als (toekomstige) datakluis, mogelijk volgens principes van <a href="https://github.com/MinBZK/nl-wallet-demo-app">NL Wallet</a>.</li>
+</ul>
+<p>
+      </p><figure id="fig-conceptueel-gegevensmodel-voorzieningen-gemaakt-met-sparx-ea">
+        <img src="./media/ConceptueelGegevensmodelVoorzieningen2.jpg" alt="conceptueel-gegevensmodel-voorzieningen">
+        <figcaption><a class="self-link" href="#fig-conceptueel-gegevensmodel-voorzieningen-gemaakt-met-sparx-ea">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Conceptueel gegevensmodel Voorzieningen, gemaakt met Sparx EA.</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="demo"><div class="header-wrapper"><h4 id="x1-4-3-demo"><bdi class="secno">1.4.3 </bdi>Demo</h4><a class="self-link" href="#demo" aria-label="Permalink for Section 1.4.3"></a></div>
+<p>Er is een <a href="https://www.ccoverheid.nl/demo/voorzieningen/menu/">demo-omgeving</a> voor de voorzieningen-toepassing. Deze Scriptcase- applicatie gebruikt een kopie van de database in de ontwikkelomgeving. De structuur en inhoud kan/zal - zonder aankondiging vooraf - geregeld worden gewijzigd. Je kan dus om te testen wel records aanmaken of wijzigen maar deze worden niet definitief bewaard. Met de API kan je dan al deze gegevens ophalen, toevoegen of wijzigen.</p>
+</section></section></section><section id="overzicht-van-het-toepassingsprofiel"><div class="header-wrapper"><h2 id="x2-overzicht-van-het-toepassingsprofiel"><bdi class="secno">2. </bdi>Overzicht van het toepassingsprofiel</h2><a class="self-link" href="#overzicht-van-het-toepassingsprofiel" aria-label="Permalink for Section 2."></a></div>
+<section id="dcat-2-0"><div class="header-wrapper"><h3 id="x2-1-dcat-2-0"><bdi class="secno">2.1 </bdi>DCAT 2.0</h3><a class="self-link" href="#dcat-2-0" aria-label="Permalink for Section 2.1"></a></div>
+<p>Het volgende diagram geeft een overzicht van de basis functionaliteit van DCAT 2 en dient als startblok voor het begrijpen van de construcie. LET OP, er zijn dus meer klassen, eigenschappen en relaties dan weergegeven. </p>
+<p>
+      </p><figure id="fig-dcat-2-0-in-het-kort">
+        <img src="./media/dcat-ap-donl-model.svg" alt="DCAT 2.0 in het kort">
+        <figcaption><a class="self-link" href="#fig-dcat-2-0-in-het-kort">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">DCAT 2.0 in het kort.</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="relatie-andere-profielen"><div class="header-wrapper"><h3 id="x2-2-relatie-andere-profielen"><bdi class="secno">2.2 </bdi>Relatie andere profielen</h3><a class="self-link" href="#relatie-andere-profielen" aria-label="Permalink for Section 2.2"></a></div>
+<p>In deze versie zijn de nieuwe mogelijkheden van het toepassingsprofiel van de EU (<cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite>) meegenomen,
+samen met aanpassingen op basis van ervaring welke is opgedaan sinds <cite><a data-matched-text="[[[DCATAPDONL_11]]]" href="https://dcat-ap-donl.readthedocs.io/en/latest/">DCAT-AP-DONL 1.1</a></cite>. DCAT-AP-RONL is compatible met
+bovenstaande standaarden, wat betekent dat een profiel dat voldoet aan DCAT-AP-RONL ook verwerkt kan worden binnen
+<cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> en <cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite>.</p>
+<p>
+      </p><figure id="fig-dcat-ap-ronl-positionering">
+        <img src="./media/DCAT-AP-RONL-positie.jpg" alt="DCAT-AP-RONL positionering">
+        <figcaption><a class="self-link" href="#fig-dcat-ap-ronl-positionering">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">DCAT-AP-RONL positionering</span></figcaption>
+      </figure>
+    <p></p>
+<p>Om zoveel mogelijk scenario's te ondersteunen, verplichten de originele <cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> van het W3C en het
+toepassingsprofiel van de EU (<cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite>) weinig. Omdat <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> alleen de Nederlandse overheid betreft kunnen we
+meer informatie van gebruikers vragen. Daarmee worden regels beter vindbaar.</p>
+</section></section><section id="wetsanalyse"><div class="header-wrapper"><h2 id="x3-wetsanalyse"><bdi class="secno">3. </bdi>Wetsanalyse</h2><a class="self-link" href="#wetsanalyse" aria-label="Permalink for Section 3."></a></div>
+<p>Wetgeving is een belangrijk instrument om de samenleving in goede banen te leiden; het is geen doel op zich maar een middel om maatschappelijke doelen te realiseren. Om wetgeving op een effectieve, rechtmatige en uitlegbare manier te kunnen uitvoeren, moet het nodige gebeuren. Dat geldt nog sterker als in de uitvoering ICT-toepassingen worden ingezet. Uitvoeringsorganisaties van de rijksoverheid zoals het Uitvoeringsinstituut Werknemersverzekeringen, de Dienst Uitvoering Onderwijs en de Belastingdienst hebben inmiddels omvangrijke ICT-landschappen om de steeds groter wordende stroom aan beslissingen die zij nemen over burgers en bedrijven af te handelen.</p>
+<p>
+      </p><figure id="fig-boek-wetsanalyse">
+        <img src="./media/boekwetsanalyse.png" alt="Boek Wetsanalyse">
+        <figcaption><a class="self-link" href="#fig-boek-wetsanalyse">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Boek Wetsanalyse</span></figcaption>
+      </figure>
+    <p></p>
+<p>Een goede vertaling van wetgeving naar de uitvoeringspraktijk vraagt om een aanpak waarbij alle stappen voor het interpreteren, preciseren en nader invullen van wetgeving expliciet en op een gestructureerde manier worden vastgelegd. Dat zorgt ervoor dat de keuzes die worden gemaakt bij het vertalen van wetgeving naar uitvoering helder zijn en dat besluiten die op grond van die keuzes worden gemaakt, uit te leggen en te verantwoorden zijn. Een ander voordeel van zo’n aanpak is dat bij wijziging van de wetgeving gemakkelijker te bepalen is welke aanpassingen nodig zijn in de ICT-systemen. Dat maakt uitvoeringsorganisaties wendbaarder bij de implementatie van wetgeving.</p>
+<p>Wetsanalyse is een aanpak die dit ondersteunt; de beschrijving en toepassing ervan staan in dit boek centraal. Het boek bestaat uit twee delen. Het eerste deel behandelt de theorie van Wetsanalyse. Om de context te schetsen wordt in hoofdstuk 2 ingegaan op de karakteristieken van wetgeving die maken dat (het inrichten van) de uitvoering vaak bewerkelijk is. Vervolgens worden in hoofdstuk 3 de verschillende stappen in de aanpak van Wetsanalyse beschreven:</p>
+<p>
+      </p><figure id="fig-stappen-wetsanalyse">
+        <img src="./media/stappenschema.png" alt="Stappen Wetsanalyse">
+        <figcaption><a class="self-link" href="#fig-stappen-wetsanalyse">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Stappen Wetsanalyse</span></figcaption>
+      </figure>
+    <p></p>
+<ol>
+<li><p><strong>Bepalen van het werkgebied</strong> het bepalen van de scope van de wetgeving en het uitvoeringsbeleid waarop Wetsanalyse toegepast wordt, bijvoorbeeld voor het bouwen van een ICT-systeem of een uitvoeringstoets op concept wetgeving.</p>
+</li>
+<li><p><strong>Zichtbaar maken van de structuur in wetgeving</strong> door het identificeren van de juridische ‘grammatica’ van wetgeving met behulp van een juridisch analyseschema.</p>
+</li>
+<li><p><strong>Vastleggen van de betekenis van wetgeving</strong> door het definiëren van de begrippen voor iedere formulering in de wetgeving met de daarbij behorende eigenschappen en te maken concrete voorbeelden die de betekenis van elk begrip verduidelijken en aanscherpen.</p>
+</li>
+<li><p><strong>Valideren van de analyseresultaten</strong> met behulp van concrete voorbeelden en juridische scenario’s worden de analyseresultaten uit de vorige stappen getoetst.</p>
+</li>
+<li><p><strong>Signaleren van ontbrekend uitvoeringsbeleid</strong> waar interpretaties en uitvoeringsaspecten naar voren komen die nog niet in uitvoeringsbeleid zijn vastgelegd, gaat een signaal naar de verantwoordelijken zodat dit alsnog gebeurt. Dit is essentieel voor de rechtmatigheid van elke beslissing of berekening. Alles moet terug te voeren zijn op wetgeving of officieel vastgesteld uitvoeringsbeleid.</p>
+</li>
+<li><p><strong>Opstellen van het kennismodel</strong> ondersteund door modelleervaardigheden wordt de betekenis van de wetgeving en het uitvoeringsbeleid overzichtelijk en samenhangend vastgelegd in een model, zodat deze kennis beschikbaar is voor implementatie in de uitvoeringspraktijk.</p>
+</li>
+</ol>
+<p>
+      </p><figure id="fig-juridisch-analyseschema">
+        <img src="./media/analyseschema.png" alt="Juridisch analyseschema">
+        <figcaption><a class="self-link" href="#fig-juridisch-analyseschema">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title">Juridisch Analyseschema</span></figcaption>
+      </figure>
+    <p></p>
+<p>Hoofdstuk 4 behandelt het juridisch analyseschema dat gebruikt wordt bij Wetsanalyse en waarin verschillende juridische elementen die in wetgeving voorkomen in samenhang gerangschikt zijn. Deze elementen vormen de klassen die bij Wetsanalyse aan formuleringen in de wetgeving worden toegekend. Het indelen van formuleringen in juridische klassen biedt ondersteuning bij het expliciet maken van de betekenis van die formuleringen. Hoofdstuk 5 gaat in op de multidisciplinaire samenwerking tussen juristen, informatieanalisten en ICT-ontwikkelaars die essentieel is voor een optimaal resultaat van Wetsanalyse. Zij voeren aan de hand van concrete voorbeelden en scenario’s steeds samen het gesprek over de uitkomsten van de analyse en de interpretatie die daarbij aan de wetgeving is gegeven. Dit is van groot belang voor de kwaliteit van de analyse en daarmee voor de juistheid van de uiteindelijke uitvoering van de wetgeving. In hoofdstuk 5 worden ook enkele aanbevelingen gedaan voor succesvolle toepassing en implementatie van Wetsanalyse.</p>
+<p>Het tweede deel van het boek bestaat uit twee grote casus waarin de praktische toepassing van Wetsanalyse wordt getoond. In hoofdstuk 6 wordt de inkomensafhankelijke bijdrage in artikel 43 Zorgverzekeringswet (Zvw) uitgewerkt. Deze bijdrage wordt geheven door de Belastingdienst. Voor hoofdstuk 7 is uitwerking van het wetsvoorstel Modernisering elektronisch bestuurlijk verkeer (afdeling 2.3 Awb) gekozen. Dit wetsvoorstel zorgt voor aanpassing van de regels voor digitale communicatie tussen burgers en overheid aan de eisen van de tijd. Deze verschillende casus laten zien dat Wetsanalyse op zowel algemene als domeinspecifieke wetgeving toepasbaar is, en zowel op bestaande wetgeving als op wetgeving in wording.</p>
+<p>Met dit boek wordt beoogd de aanpak voor Wetsanalyse breed bekend te maken voor iedereen die in werk of studie te maken heeft met toepassing of uitvoering van wetgeving. Hoewel de nadruk ligt op digitale uitvoering van wetgeving bij uitvoeringsorganisaties van de rijksoverheid, kan het ook van waarde zijn in het juridisch en informatiekundig onderwijs op hogescholen, universiteiten en postacademische opleidingen. Het doel is steeds een brug te slaan tussen de taal van juristen en de techniek van de ICT.</p>
+<section id="uitnodiging-om-bij-te-dragen"><div class="header-wrapper"><h3 id="x3-1-uitnodiging-om-bij-te-dragen"><bdi class="secno">3.1 </bdi>Uitnodiging om bij te dragen</h3><a class="self-link" href="#uitnodiging-om-bij-te-dragen" aria-label="Permalink for Section 3.1"></a></div>
+<p>Het boek beschrijft de aanpak en toepassing van Wetsanalyse naar de stand van begin 2021. Wetsanalyse zal echter zich blijven vernieuwen onder invloed van ontwikkelingen in wetgeving, rechtstoepassing en technologie. De lezers worden nadrukkelijk uitgenodigd om met Wetsanalyse aan de slag te gaan en ervaringen en ideeën te delen, om zo samen te werken aan het verfijnen en doorontwikkelen van Wetsanalyse. Net zoals samenwerking essentieel is in de concrete toepassing van Wetsanalyse: steeds multidisciplinair en stapsgewijs.</p>
+</section><section id="regelspraak"><div class="header-wrapper"><h3 id="x3-2-regelspraak"><bdi class="secno">3.2 </bdi>Regelspraak</h3><a class="self-link" href="#regelspraak" aria-label="Permalink for Section 3.2"></a></div>
+<p>De taal voor het vastleggen van regels die direct omgezet kunnen worden in werkende software. Één van de pijlers van wendbare wetsuitvoering. </p>
+</section><section id="alef"><div class="header-wrapper"><h3 id="x3-3-alef"><bdi class="secno">3.3 </bdi>ALEF</h3><a class="self-link" href="#alef" aria-label="Permalink for Section 3.3"></a></div>
+<p>De Belastingdienst heeft in het kader van het agile toepassen van de wet een tool ontwikkeld voor het opstellen en toetsen van regels. Het opstellen van de regels gebeurt op basis van bestaande specificaties of code, maar idealiter (en ook steeds vaker) worden hiervoor de resultaten van de Wetsanalyse gebruikt.</p>
+<p>Deze tool heet ALEF (Agile Law Execution Factory) en is gebaseerd op Jetbrains MPS. In ALEF worden specificaties opgesteld in samenwerking met de domeinexperts. Deze specificaties bestaan uit regels, datadefinities en testgevallen. Dit wordt zoveel mogelijk door de domeinexperts zelf gedaan. De regels zijn opgesteld in de taal RegelSpraak. Dit is een gecontroleerde Nederlandse taal die zowel voor juristen als voor computersystemen goed leesbaar is.</p>
+<div class="issue" id="issue-container-number-1"><div role="heading" class="issue-title marker" id="h-issue" aria-level="4"><a href="https://github.com/MinBZK/dcat-ap-ronl/issues/1"><span class="issue-number">Issue 1</span></a><span class="issue-label" aria-label="This issue is labelled as documentation en question.">: Make DCAT application profile suitable for metadata ALEF specifications documentation <a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22documentation%22" style="background-color: rgb(0, 117, 202); color: rgb(255, 255, 255);">documentation</a><a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22question%22" style="background-color: rgb(216, 118, 227); color: rgb(0, 0, 0);">question</a></span></div><p dir="auto">Reference for ReSpec to <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1534488025" data-permission-text="Title is private" data-url="https://github.com/MinBZK/regels.overheid.nl/issues/129" data-hovercard-type="issue" data-hovercard-url="/MinBZK/regels.overheid.nl/issues/129/hovercard" href="https://github.com/MinBZK/regels.overheid.nl/issues/129">MinBZK/regels.overheid.nl#129</a></p></div>
+
+</section><section id="norm-engineering"><div class="header-wrapper"><h3 id="x3-4-norm-engineering"><bdi class="secno">3.4 </bdi>Norm engineering</h3><a class="self-link" href="#norm-engineering" aria-label="Permalink for Section 3.4"></a></div>
+<p>Een TNO programma dat werkt aan theoretische modellen voor normatieve systemen en de praktische toepassing daarvan, ondersteund met prototypes voor technische ondersteunen op basis van open standaarden en open source software.</p>
+<p>De basis van het programma bestaat uit een protocol voor het uitvoeren van normatieve taken (Calculemus) en een expliciete normatieve taal om interpretaties van juridische bronnen vast te leggen (Flint). Flint is ontwikkeld om in de toepassing van normen in het sociale, ethische en juridisch domein te representeren op een wijze die normen begrijpelijk maak voor mensen, en geschikt voor automatisch redeneren door machines.</p>
+<p>De aanpak is actie-georiënteerd (normen worden gebruikt om gedrag te reguleren) en richt zich op het zo expliciet mogelijk beschrijven van de interpretatie van bij een normatief vraagstuk betrokken partijen. Het herkennen en oplossen van meningsverschillen maakt nadrukkelijke deel uit van de aanpak.</p>
+<p>De methode wordt onder meer toegepast om:</p>
+<ul>
+<li>praktische juridische kaders te ontwikkelen voor maatwerk in dienstverlening,</li>
+<li>begrijpelijk uitlegbare automatische besluiten (incl. explainable AI),</li>
+<li>het versterken rechtspositie burgers in bestuursrechtelijke procedures,</li>
+<li>kennisuitwisseling mogelijk maken tussen organisaties die gebruik maken van verschillende methoden voor het representeren en gebruiken van normen en regels.</li>
+</ul>
+<p>Uitgebreider uitleg is <a href="./media/calculemus.pdf">hier</a> te vinden</p>
+<section id="flint-frames"><div class="header-wrapper"><h4 id="x3-4-1-flint-frames"><bdi class="secno">3.4.1 </bdi>FLINT-frames</h4><a class="self-link" href="#flint-frames" aria-label="Permalink for Section 3.4.1"></a></div>
+<p>Flint is een actie-gerichte interpretatiemethode waarin normen worden uitgedrukt als handelingen, feiten of plichten. Flint is ontwikkeld om alle toestanden en toestandsovergangen waarin normen een rol spelen expliciet te kunnen beschrijven met een referentie naar gebruikte bronnen.</p>
+<p>FLINT-frames zijn geen regels, hoewel FLINT-frames (relatief losse/informele/op natuurlijke taal gebaseerde) interpretaties van voorschriften kunnen vertegenwoordigen.</p>
+<p>We onderzoeken met welke metadata een Flint interpretatie van de wettelijke grondslag(en) die bij de producten en diensten horen kan worden beschreven.</p>
+<div class="issue" id="issue-container-number-2"><div role="heading" class="issue-title marker" id="h-issue-0" aria-level="5"><a href="https://github.com/MinBZK/dcat-ap-ronl/issues/2"><span class="issue-number">Issue 2</span></a><span class="issue-label" aria-label="This issue is labelled as documentation en question.">: Make DCAT application profile suitable for metadata FLINT interpretation <a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22documentation%22" style="background-color: rgb(0, 117, 202); color: rgb(255, 255, 255);">documentation</a><a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22question%22" style="background-color: rgb(216, 118, 227); color: rgb(0, 0, 0);">question</a></span></div><p dir="auto">Reference for ReSpec to <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1527072085" data-permission-text="Title is private" data-url="https://github.com/MinBZK/regels.overheid.nl/issues/127" data-hovercard-type="issue" data-hovercard-url="/MinBZK/regels.overheid.nl/issues/127/hovercard" href="https://github.com/MinBZK/regels.overheid.nl/issues/127">MinBZK/regels.overheid.nl#127</a></p></div>
+
+</section><section id="eflint"><div class="header-wrapper"><h4 id="x3-4-2-eflint"><bdi class="secno">3.4.2 </bdi>eFLINT</h4><a class="self-link" href="#eflint" aria-label="Permalink for Section 3.4.2"></a></div>
+<p>(tbd)</p>
+</section></section><section id="placeholder-rulespeak"><div class="header-wrapper"><h3 id="x3-5-placeholder-rulespeak"><bdi class="secno">3.5 </bdi>placeholder RuleSpeak®</h3><a class="self-link" href="#placeholder-rulespeak" aria-label="Permalink for Section 3.5"></a></div>
+<section id="rulespeak"><div class="header-wrapper"><h4 id="x3-5-1-rulespeak"><bdi class="secno">3.5.1 </bdi>RuleSpeak®</h4><a class="self-link" href="#rulespeak" aria-label="Permalink for Section 3.5.1"></a></div>
+<p>RuleSpeak® is een verzameling richtlijnen voor het formuleren van bedrijfsregels op een bedrijfsvriendelijke en precieze manier. Het is geen taal of syntax maar eerder een verzameling voorschriften voor Nederlandstalige formulering van bedrijfsregels gebaseerd op ervaringen in de praktijk.</p>
+<p>Bedoeling:</p>
+<ul>
+<li>Het vergroten van de helderheid en consistentie in het communiceren van regels tussen mensen uit de bedrijfspraktijk of als eisen (requirements) voor de ontwikkeling van IT systemen.</li>
+<li>Het effectief verkrijgen, verwoorden en behouden van bedrijfskennis en criteria om beslissingen te nemen.</li>
+</ul>
+<div class="issue" id="issue-container-number-3"><div role="heading" class="issue-title marker" id="h-issue-1" aria-level="5"><a href="https://github.com/MinBZK/dcat-ap-ronl/issues/3"><span class="issue-number">Issue 3</span></a><span class="issue-label" aria-label="This issue is labelled as documentation en question.">: Make DCAT application profile suitable for metadata RuleSpeak® specification <a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22documentation%22" style="background-color: rgb(0, 117, 202); color: rgb(255, 255, 255);">documentation</a><a class="respec-gh-label" href="https://github.com/MinBZK/dcat-ap-ronl/issues/?q=is%3Aissue+is%3Aopen+label%3A%22question%22" style="background-color: rgb(216, 118, 227); color: rgb(0, 0, 0);">question</a></span></div><p dir="auto">Reference for ReSpec to <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1556221107" data-permission-text="Title is private" data-url="https://github.com/MinBZK/regels.overheid.nl/issues/149" data-hovercard-type="issue" data-hovercard-url="/MinBZK/regels.overheid.nl/issues/149/hovercard" href="https://github.com/MinBZK/regels.overheid.nl/issues/149">MinBZK/regels.overheid.nl#149</a></p></div>
+
+</section></section><section id="placeholder-concordia-legal"><div class="header-wrapper"><h3 id="x3-6-placeholder-concordia-legal"><bdi class="secno">3.6 </bdi>placeholder Concordia Legal</h3><a class="self-link" href="#placeholder-concordia-legal" aria-label="Permalink for Section 3.6"></a></div>
+<section id="expliciete-declaratieve-regels"><div class="header-wrapper"><h4 id="x3-6-1-expliciete-declaratieve-regels"><bdi class="secno">3.6.1 </bdi>Expliciete declaratieve regels</h4><a class="self-link" href="#expliciete-declaratieve-regels" aria-label="Permalink for Section 3.6.1"></a></div>
+<p>De kern is Expliciete declaratieve regels. Business logica is niet een proces maar onafhankelijk van de volgorde en een evaluatie van de feitelijk toestand. Wij kijken naar de feiten van een situatie en wat de (juridische) gevolgen van die feitelijke situatie is. Het grootste voordeel is dat grote complexiteit daarmee aangepakt kan worden, en je de, gebruikelijke, procesmatige stap voor stap bouwaanpak vermijdt.</p>
+</section></section></section><section id="klassen"><div class="header-wrapper"><h2 id="x4-klassen"><bdi class="secno">4. </bdi>Klassen</h2><a class="self-link" href="#klassen" aria-label="Permalink for Section 4."></a></div>
+<p>In dit hoofdstuk worden de klassen van het applicatieprofiel benoemd en beschreven.</p>
+<section id="introductie-0"><div class="header-wrapper"><h3 id="x4-1-introductie"><bdi class="secno">4.1 </bdi>Introductie</h3><a class="self-link" href="#introductie-0" aria-label="Permalink for Section 4.1"></a></div>
+<p>Als de overheid besluiten neemt in individuele gevallen waarbij het gaat om grote aantallen en veel vergelijkbare repeterende taken, gaat dit vaak geautomatiseerd. Hiervoor moet de wet vertaald worden en moet bepaald worden hoe de wet wordt uitgevoerd. Na gesprekken met de professionals hebben we dit proces in de volgende stappen onderscheiden.</p>
+<p>
+      </p><figure id="fig-processen-wetsuitvoering">
+        <img src="./media/processen-wetsuitvoering.png" alt="processen-wetsuitvoering">
+        <figcaption><a class="self-link" href="#fig-processen-wetsuitvoering">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title">Processen wetsuitvoering</span></figcaption>
+      </figure>
+    <p></p>
+<p>Deze procesplaat is een illustratie, geen voorschrift. Elke organisatie zal het proces op een eigen manier hebben ingericht. Dat blijft in stand. De procesplaat en de onderverdeling in <cite><a data-matched-text="[[[LM]]]" href="https://regels.overheid.nl/publicaties/de-legitimaat">De LegitiMaat</a></cite>, is een manier om het gesprek te voeren.</p>
+</section><section id="aanpak"><div class="header-wrapper"><h3 id="x4-2-aanpak"><bdi class="secno">4.2 </bdi>Aanpak</h3><a class="self-link" href="#aanpak" aria-label="Permalink for Section 4.2"></a></div>
+<p>Verplichte velden voor <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> over de linkerkant van de flow zijn relaties met "wetgeving", maar er kunnen 3 extra relaties zijn:</p>
+<ul>
+<li>uitvoeringsbeleid (bron: PUC, eigen website organisatie)</li>
+<li>analyseren (zoals gepubliceerd in analysetools, wetsanalyse-editors, enz.)</li>
+<li>werkinstructies (gepubliceerd in PUC of online in "handboeken")</li>
+</ul>
+<p>Voor de items aan de rechterkant van de stroom moeten we een "distributieklasse" aanbieden om te beschrijven:</p>
+<ul>
+<li>functionele ontwerpen / koppelingen naar functionele ontwerpen in een Github-register (documentatie)</li>
+<li>algoritmes / code / applicaties waar regels worden uitgevoerd, gepubliceerd in een Github-register (uitvoering)</li>
+<li>handmatige procedures; grotendeels intern gepubliceerd (procesbeschrijvingen)</li>
+</ul>
+<p>Het is belangrijk om vast te stellen: wat wordt opgeslagen/beschreven als onderdeel van de "regelset" en waaraan kan worden gekoppeld.</p>
+<ul>
+<li>Hieruit volgt dat alle objecten aan de linkerkant van regels in de stroom moeten worden gekoppeld.</li>
+<li>Alle objecten aan de rechterkant kunnen deel uitmaken van de regelsetbeschrijving.</li>
+</ul>
+<p>Elke regelset heeft een URI nodig die kan worden gebruikt om te linken in openbare communicatie/brieven.</p>
+</section></section><section id="waardelijsten"><div class="header-wrapper"><h2 id="x5-waardelijsten"><bdi class="secno">5. </bdi>Waardelijsten</h2><a class="self-link" href="#waardelijsten" aria-label="Permalink for Section 5."></a></div>
+<p>Binnen dit toepassingsprofiel worden de onderstaande waardelijsten toegepast.</p>
+</section>
   <script>
     let content = "";
 
@@ -446,20 +696,30 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 
     document.getElementById("sotd").insertAdjacentHTML('afterend', content);
   </script>
-  <section id="conformance"><div class="header-wrapper"><h2 id="x4-conformiteit"><bdi class="secno">4. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 4."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
-  <section id="tof"><div class="header-wrapper"><h2 id="x5-lijst-met-figuren"><bdi class="secno">5. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 5."></a></div><ul class="tof">
+  <section id="conformance"><div class="header-wrapper"><h2 id="x6-conformiteit"><bdi class="secno">6. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 6."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
+  <section id="tof"><div class="header-wrapper"><h2 id="x7-lijst-met-figuren"><bdi class="secno">7. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 7."></a></div><ul class="tof">
         <li class="tofline">
-    <a class="tocxref" href="#fig-onderschrift"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Onderschrift</span></a>
+    <a class="tocxref" href="#fig-klassen-en-relaties"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Klassen en relaties</span></a>
   </li><li class="tofline">
-    <a class="tocxref" href="#fig-mermaid-voorbeeld"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title">Mermaid voorbeeld</span></a>
+    <a class="tocxref" href="#fig-conceptueel-gegevensmodel-voorzieningen-gemaakt-met-sparx-ea"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title">Conceptueel gegevensmodel Voorzieningen, gemaakt met Sparx EA.</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-dcat-2-0-in-het-kort"><span class="self-link">Figuur <bdi class="figno">3</bdi></span> <span class="fig-title">DCAT 2.0 in het kort.</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-dcat-ap-ronl-positionering"><span class="self-link">Figuur <bdi class="figno">4</bdi></span> <span class="fig-title">DCAT-AP-RONL positionering</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-boek-wetsanalyse"><span class="self-link">Figuur <bdi class="figno">5</bdi></span> <span class="fig-title">Boek Wetsanalyse</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-stappen-wetsanalyse"><span class="self-link">Figuur <bdi class="figno">6</bdi></span> <span class="fig-title">Stappen Wetsanalyse</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-juridisch-analyseschema"><span class="self-link">Figuur <bdi class="figno">7</bdi></span> <span class="fig-title">Juridisch Analyseschema</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-processen-wetsuitvoering"><span class="self-link">Figuur <bdi class="figno">8</bdi></span> <span class="fig-title">Processen wetsuitvoering</span></a>
   </li>
       </ul></section>
   <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
     <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
     <ul class="index">
-    <li>
-      <a class="index-term" href="#dfn-definitie">Definitie</a> 
-    <span class="print-only">§2.1</span></li>
+    
   </ul>
   </section><section id="index-defined-elsewhere">
     <div class="header-wrapper"><h3 id="a-2-begrippen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</h3><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for Appendix A.2"></a></div>
@@ -472,24 +732,35 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="b-referenties"><bdi class="secno">B. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix B."></a></div><section id="normatieve-referenties">
     <div class="header-wrapper"><h3 id="b-1-normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Appendix B.1"></a></div>
-    <dl class="bibliography"><dt id="bib-semver">[SemVer]</dt><dd>
-      <a href="https://semver.org"><cite>Semantic Versioning 2.0.0</cite></a>. T. Preston-Werner. June 2013. URL: <a href="https://semver.org">https://semver.org</a>
+    <dl class="bibliography"><dt id="bib-dcat_20">[DCAT_20]</dt><dd>
+      <a href="https://www.w3.org/TR/vocab-dcat-2/"><cite>Data Catalog Vocabulary (DCAT) - Version 2</cite></a>. World Wide Web Consortium. February 2020. URL: <a href="https://www.w3.org/TR/vocab-dcat-2/">https://www.w3.org/TR/vocab-dcat-2/</a>
+    </dd><dt id="bib-dcatap_21">[DCATAP_21]</dt><dd>
+      <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210"><cite>DCAT-AP 2.1</cite></a>. The Publications Office of the European Union.. URL: <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210</a>
+    </dd><dt id="bib-dcatapdonl_11">[DCATAPDONL_11]</dt><dd>
+      <a href="https://dcat-ap-donl.readthedocs.io/en/latest/"><cite>DCAT-AP-DONL 1.1</cite></a>. Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties.. URL: <a href="https://dcat-ap-donl.readthedocs.io/en/latest/">https://dcat-ap-donl.readthedocs.io/en/latest/</a>
+    </dd><dt id="bib-lm">[LM]</dt><dd>
+      <a href="https://regels.overheid.nl/publicaties/de-legitimaat"><cite>De LegitiMaat</cite></a>. ministerie van Binnenlandse Zaken en Koninkrijksrelaties.. Juli 2022. URL: <a href="https://regels.overheid.nl/publicaties/de-legitimaat">https://regels.overheid.nl/publicaties/de-legitimaat</a>
+    </dd><dt id="bib-ronl">[RONL]</dt><dd>
+      <a href="https://regels.overheid.nl"><cite>regels.overheid.nl</cite></a>. ministerie van Binnenlandse Zaken en Koninkrijksrelaties.. URL: <a href="https://regels.overheid.nl">https://regels.overheid.nl</a>
+    </dd></dl>
+  </section><section id="informatieve-referenties">
+    <div class="header-wrapper"><h3 id="b-2-informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix B.2"></a></div>
+    <dl class="bibliography"><dt id="bib-algo">[ALGO]</dt><dd>
+      <a href="https://algoritmes.overheid.nl/"><cite>Algoritmeregister</cite></a>. ministerie van Binnenlandse Zaken en Koninkrijksrelaties.. December 2022. URL: <a href="https://algoritmes.overheid.nl/">https://algoritmes.overheid.nl/</a>
+    </dd><dt id="bib-algo-stand">[ALGO-STAND]</dt><dd>
+      <a href="https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json"><cite>Nederlandse Algoritme MetaStandaard</cite></a>. ministerie van Binnenlandse Zaken en Koninkrijksrelaties.. December 2022. URL: <a href="https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json">https://github.com/MinBZK/Algoritmeregister/blob/main/schema.json</a>
+    </dd><dt id="bib-data_eu">[DATA_EU]</dt><dd>
+      <a href="https://data.europa.eu/en"><cite>data.europa.eu</cite></a>. The Publications Office of the European Union.. URL: <a href="https://data.europa.eu/en">https://data.europa.eu/en</a>
+    </dd><dt id="bib-donl">[DONL]</dt><dd>
+      <a href="https://data.overheid.nl"><cite>data.overheid.nl</cite></a>. Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties.. URL: <a href="https://data.overheid.nl">https://data.overheid.nl</a>
+    </dd><dt id="bib-upl">[UPL]</dt><dd>
+      <a href="https://standaarden.overheid.nl/upl"><cite>Uniforme Productnamenlijst</cite></a>. Logius.. URL: <a href="https://standaarden.overheid.nl/upl">https://standaarden.overheid.nl/upl</a>
+    </dd><dt id="bib-volledige-upl">[Volledige-UPL]</dt><dd>
+      <a href="https://standaarden.overheid.nl/owms/oquery/UPL-actueel.plain"><cite>Volledige UPL Actueel</cite></a>. Logius.. URL: <a href="https://standaarden.overheid.nl/owms/oquery/UPL-actueel.plain">https://standaarden.overheid.nl/owms/oquery/UPL-actueel.plain</a>
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
-  </p><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-definitie" aria-label="Links in this document to definition: Definitie">
-      <span class="caret"></span>
-      <div>
-        <a class="self-link" href="#dfn-definitie" aria-label="Permalink for definition: Definitie. Activate to close this dialog.">Permalink</a>
-         
-      </div>
-      <p><b>Referenced in:</b></p>
-      <ul>
-    <li>
-    <a href="#ref-for-dfn-definitie-1" title="§ 2.3 Referenties">§ 2.3 Referenties</a> 
-  </li>
-  </ul>
-    </div><script id="respec-dfn-panel">(() => {
+  </p><script id="respec-dfn-panel">(() => {
 // @ts-check
 if (document.respec) {
   document.respec.ready.then(setupPanel);
@@ -711,4 +982,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Logius Handreiking - Vastgestelde versie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">MinBZK Handreiking - Werkversie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
