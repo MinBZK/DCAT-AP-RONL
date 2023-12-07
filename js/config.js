@@ -3,7 +3,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "cc0",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "HR",
   pubDomain: "ronl",
 
@@ -15,7 +15,7 @@ let respecConfig = {
   previousPublishVersion: "",
   previousPublishDate: "",
   previousMaturity: "WV",
-  title: "DCAT AP RONL (concept)",
+  title: "DCAT AP RONL",
   subtitle:
     "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
 
