@@ -9,12 +9,12 @@ let respecConfig = {
 
   // shortName = Repository name
   shortName: "dcat-ap-ronl",
-  publishDate: "2023-12-07",
-  publishVersion: "1.1.0",
+  publishDate: "2024-05-14",
+  publishVersion: "0.1.0",
 
-  previousPublishVersion: "1.0.2",
-  previousPublishDate: "2023-12-02",
-  previousMaturity: "DEF",
+  previousPublishVersion: "",
+  previousPublishDate: "",
+  previousMaturity: "",
   title: "DCAT AP RONL",
   subtitle:
     "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
