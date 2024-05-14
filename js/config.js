@@ -23,11 +23,10 @@ let respecConfig = {
   content: { ch01: "informative", ch02: "", ch03: "", ch04: "", ch05: "" },
   editors: [
     {
-      name: "Mildo van Staden",
-      mailto: "Mildo.Staden@minbzk.nl",
-      company: "BZK",
-      companyURL:
-        "https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties",
+      name: "Steven Gort",
+      mailto: "steven.gort@ictu.nl",
+      company: "ICTU",
+      companyURL: "http://www.ictu.nl",
     },
   ],
   authors: [
