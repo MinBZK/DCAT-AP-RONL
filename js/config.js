@@ -3,16 +3,16 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "cc0",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "ST",
   pubDomain: "ronl",
 
   // shortName = Repository name
   shortName: "dcat-ap-ronl",
   publishDate: "2024-05-14",
-  publishVersion: "1.2.2",
+  publishVersion: "1.2.3",
 
-  previousPublishVersion: "1.2.1",
+  previousPublishVersion: "1.2.2",
   previousPublishDate: "2023-12-07",
   previousMaturity: "WV",
   title: "DCAT AP RONL",
