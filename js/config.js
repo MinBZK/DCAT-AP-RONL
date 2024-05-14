@@ -10,9 +10,9 @@ let respecConfig = {
   // shortName = Repository name
   shortName: "dcat-ap-ronl",
   publishDate: "2024-05-14",
-  publishVersion: "0.2.0",
+  publishVersion: "1.3.0",
 
-  previousPublishVersion: "0.1.0",
+  previousPublishVersion: "1.2.0",
   previousPublishDate: "2023-12-07",
   previousMaturity: "WV",
   title: "DCAT AP RONL",
