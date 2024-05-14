@@ -20,7 +20,7 @@ let respecConfig = {
     "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
 
   // Content
-  content: { ch01: "informative", ch02: "", ch03: "", ch04: "", ch05: "" },
+  content: { ch01: "informative", ch02: "", ch03: "", ch04: "" },
   editors: [
     {
       name: "Steven Gort",
