@@ -135,7 +135,7 @@ var organisationConfig = {
       authors: ["T. Preston-Werner"],
       date: "June 2013",
     },
-    "DCAT-3.0": {
+    "DCAT-AP-3.0": {
       href: "https://semiceu.github.io//DCAT-AP/releases/3.0.0/",
       title: "DCAT-AP-3.0",
       authors: ["Bert Van Nuffelen"],
