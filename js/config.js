@@ -31,8 +31,8 @@ let respecConfig = {
   ],
   authors: [
     {
-      name: "Hayo Schreijer",
-      url: "https://www.dexes.nl",
+      name: "Andre van Brussel",
+      url: "https://www.ictu.nl",
     },
     {
       name: "Steven Gort",
