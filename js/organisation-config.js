@@ -143,7 +143,7 @@ var organisationConfig = {
     },
     "DCAT-AP-NL-3.0": {
       href: "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
-      title: "DCAT-AP-DONL-3.0",
+      title: "DCAT-AP-NL-3.0",
       authors: ["Jan Skornsek, Ine de Visser"],
       date: "2024-04-16",
     },
