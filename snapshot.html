@@ -271,14 +271,23 @@ ul.index code{color:inherit}
       ],
       "date": "June 2013"
     },
-    "DCATAPDONL_11": {
-      "href": "https://dcat-ap-donl.readthedocs.io/en/latest/",
-      "title": "DCAT-AP-DONL 1.1",
+    "DCAT-AP-DONL-2.0": {
+      "href": "https://dataoverheid.github.io/dcat-ap-donl/",
+      "title": "DCAT-AP-DONL-2.0",
       "authors": [
-        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties."
+        "Jan Meijer; Huub van Oers; Kees Trautwein. data.overheid.nl."
       ],
-      "date": "",
-      "id": "dcatapdonl_11"
+      "date": "2022-11-24",
+      "id": "dcat-ap-donl-2.0"
+    },
+    "DCAT-AP-3.0": {
+      "href": "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
+      "title": "DCAT-AP-3.0",
+      "authors": [
+        "Jan Skornsek, Ine de Visser"
+      ],
+      "date": "2024-04-16",
+      "id": "dcat-ap-3.0"
     },
     "DONL": {
       "href": "https://data.overheid.nl",
@@ -406,7 +415,7 @@ ul.index code{color:inherit}
     <h2>
       MinBZK Standaard<br>
       Werkversie
-      <time class="dt-published" datetime="2024-05-14">14 mei 2024</time>
+      <time class="dt-published" datetime="2024-05-14">30 mei 2024</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -454,7 +463,7 @@ ul.index code{color:inherit}
     <hr title="Separator for header">
   </div>
   <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze specificatie is onderdeel van <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite>.</p>
-<p>Doel van dit DCAT profiel is om beschrijvingen van regels te verzamelen in <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> die compatibel zijn met het DCAT-AP-DONL profiel voor <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>.</p>
+<p>Doel van dit DCAT profiel is om beschrijvingen van regels te verzamelen in <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> die compatibel zijn met het <cite><a data-matched-text="[[[DCAT-AP-DONL-2.0]]]" href="https://dataoverheid.github.io/dcat-ap-donl/">DCAT-AP-DONL-2.0</a></cite> profiel voor <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>.</p>
 <p>Het volgende diagram geeft een overzicht van de basis functionaliteit van het beoogde DCAT-AP-RONL profiel en dient als overzicht van de te definieren beschrijvingen.</p>
 <p>
       </p><figure id="fig-klassen-en-relaties">
@@ -462,7 +471,7 @@ ul.index code{color:inherit}
         <figcaption><a class="self-link" href="#fig-klassen-en-relaties">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Klassen en relaties</span></figcaption>
       </figure>
     <p></p>
-<p>Het is gebaseerd op het <cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite> dat op zijn beurt gebaseerd is op de <cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> en de eerdere data.overheid.nl versie <cite><a data-matched-text="[[[DCATAPDONL_11]]]" href="https://dcat-ap-donl.readthedocs.io/en/latest/">DCAT-AP-DONL 1.1</a></cite>.</p>
+<p>Het is gebaseerd op het toepassingsprofiel van <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">DCAT-AP-3.0</a></cite> van de EU voor uitwisseling tussen gegevenscatalogi in Nederland. <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">DCAT-AP-3.0</a></cite> is een doorontwikkeling van <cite><a data-matched-text="[[[DCAT-AP-DONL-2.0]]]" href="https://dataoverheid.github.io/dcat-ap-donl/">DCAT-AP-DONL-2.0</a></cite>.</p>
 </section>
   <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie"><bdi class="secno">1.1 </bdi>Introductie</a></li><li class="tocline"><a class="tocxref" href="#producten-en-diensten"><bdi class="secno">1.2 </bdi>Producten en diensten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#de-uniforme-productnamenlijst-upl"><bdi class="secno">1.2.1 </bdi>De Uniforme Productnamenlijst (UPL)</a></li><li class="tocline"><a class="tocxref" href="#de-actuele-en-historische-upl"><bdi class="secno">1.2.2 </bdi>De actuele en historische UPL</a></li></ol></li><li class="tocline"><a class="tocxref" href="#voorzieningen"><bdi class="secno">1.3 </bdi>Voorzieningen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#harmonisator"><bdi class="secno">1.3.1 </bdi>Harmonisator</a></li><li class="tocline"><a class="tocxref" href="#mvp"><bdi class="secno">1.3.2 </bdi>MVP</a></li><li class="tocline"><a class="tocxref" href="#demo"><bdi class="secno">1.3.3 </bdi>Demo</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#overzicht-van-het-toepassingsprofiel"><bdi class="secno">2. </bdi>Overzicht van het toepassingsprofiel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-2-0"><bdi class="secno">2.1 </bdi>DCAT 2.0</a></li><li class="tocline"><a class="tocxref" href="#relatie-andere-profielen"><bdi class="secno">2.2 </bdi>Relatie andere profielen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#klassen"><bdi class="secno">3. </bdi>Klassen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie-0"><bdi class="secno">3.1 </bdi>Introductie</a></li><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">3.2 </bdi>Aanpak</a></li></ol></li><li class="tocline"><a class="tocxref" href="#waardelijsten"><bdi class="secno">4. </bdi>Waardelijsten</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">5. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">6. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</a></li></ol></li></ol></nav><section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
 <section id="introductie"><div class="header-wrapper"><h3 id="x1-1-introductie"><bdi class="secno">1.1 </bdi>Introductie</h3><a class="self-link" href="#introductie" aria-label="Permalink for Section 1.1"></a></div>
@@ -520,7 +529,7 @@ Deze tekst is de introductie van het <a href="https://dataoverheid.github.io/dca
     <p></p>
 </section><section id="relatie-andere-profielen"><div class="header-wrapper"><h3 id="x2-2-relatie-andere-profielen"><bdi class="secno">2.2 </bdi>Relatie andere profielen</h3><a class="self-link" href="#relatie-andere-profielen" aria-label="Permalink for Section 2.2"></a></div>
 <p>In deze versie zijn de nieuwe mogelijkheden van het toepassingsprofiel van de EU (<cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite>) meegenomen,
-samen met aanpassingen op basis van ervaring welke is opgedaan sinds <cite><a data-matched-text="[[[DCATAPDONL_11]]]" href="https://dcat-ap-donl.readthedocs.io/en/latest/">DCAT-AP-DONL 1.1</a></cite>. DCAT-AP-RONL is compatible met
+samen met aanpassingen op basis van ervaring welke is opgedaan sinds <a data-matched-text="[[[DCATAPDONL_11]]]" class="respec-offending-element" title="Couldn't find a match for &quot;DCATAPDONL_11&quot;" id="respec-offender-couldn-t-find-a-match-for-dcatapdonl_11">[[[DCATAPDONL_11]]]</a>. DCAT-AP-RONL is compatible met
 bovenstaande standaarden, wat betekent dat een profiel dat voldoet aan DCAT-AP-RONL ook verwerkt kan worden binnen
 <cite><a data-matched-text="[[[DCAT_20]]]" href="https://www.w3.org/TR/vocab-dcat-2/">Data Catalog Vocabulary (DCAT) - Version 2</a></cite> en <cite><a data-matched-text="[[[DCATAP_21]]]" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">DCAT-AP 2.1</a></cite>.</p>
 <p>
@@ -613,7 +622,7 @@ meer informatie van gebruikers vragen. Daarmee worden regels beter vindbaar.</p>
     </dd><dt id="bib-dcatap_21">[DCATAP_21]</dt><dd>
       <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210"><cite>DCAT-AP 2.1</cite></a>. The Publications Office of the European Union.. URL: <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210</a>
     </dd><dt id="bib-dcatapdonl_11">[DCATAPDONL_11]</dt><dd>
-      <a href="https://dcat-ap-donl.readthedocs.io/en/latest/"><cite>DCAT-AP-DONL 1.1</cite></a>. Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties.. URL: <a href="https://dcat-ap-donl.readthedocs.io/en/latest/">https://dcat-ap-donl.readthedocs.io/en/latest/</a>
+      <em class="respec-offending-element">Reference not found.</em>
     </dd><dt id="bib-lm">[LM]</dt><dd>
       <a href="https://regels.overheid.nl/publicaties/de-legitimaat"><cite>De LegitiMaat</cite></a>. ministerie van Binnenlandse Zaken en Koninkrijksrelaties.. Juli 2022. URL: <a href="https://regels.overheid.nl/publicaties/de-legitimaat">https://regels.overheid.nl/publicaties/de-legitimaat</a>
     </dd><dt id="bib-ronl">[RONL]</dt><dd>
@@ -623,6 +632,10 @@ meer informatie van gebruikers vragen. Daarmee worden regels beter vindbaar.</p>
     <div class="header-wrapper"><h3 id="b-2-informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix B.2"></a></div>
     <dl class="bibliography"><dt id="bib-data_eu">[DATA_EU]</dt><dd>
       <a href="https://data.europa.eu/en"><cite>data.europa.eu</cite></a>. The Publications Office of the European Union.. URL: <a href="https://data.europa.eu/en">https://data.europa.eu/en</a>
+    </dd><dt id="bib-dcat-ap-3.0">[DCAT-AP-3.0]</dt><dd>
+      <a href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"><cite>DCAT-AP-3.0</cite></a>. Jan Skornsek, Ine de Visser. 2024-04-16. URL: <a href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/</a>
+    </dd><dt id="bib-dcat-ap-donl-2.0">[DCAT-AP-DONL-2.0]</dt><dd>
+      <a href="https://dataoverheid.github.io/dcat-ap-donl/"><cite>DCAT-AP-DONL-2.0</cite></a>. Jan Meijer; Huub van Oers; Kees Trautwein. data.overheid.nl.. 2022-11-24. URL: <a href="https://dataoverheid.github.io/dcat-ap-donl/">https://dataoverheid.github.io/dcat-ap-donl/</a>
     </dd><dt id="bib-donl">[DONL]</dt><dd>
       <a href="https://data.overheid.nl"><cite>data.overheid.nl</cite></a>. Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties.. URL: <a href="https://data.overheid.nl">https://data.overheid.nl</a>
     </dd><dt id="bib-upl">[UPL]</dt><dd>
