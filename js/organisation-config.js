@@ -135,21 +135,31 @@ var organisationConfig = {
       authors: ["T. Preston-Werner"],
       date: "June 2013",
     },
+    "DCAT-AP-3.0": {
+      href: "https://semiceu.github.io//DCAT-AP/releases/3.0.0/",
+      title: "DCAT-AP-3.0",
+      authors: ["Bert Van Nuffelen"],
+      date: "2024-02-12",
+    },
+    "DCAT-AP-DONL-3.0": {
+      href: "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
+      title: "DCAT-AP-DONL-3.0",
+      authors: ["Jan Skornsek, Ine de Visser"],
+      date: "2024-04-16",
+    },
     "DCAT-AP-DONL-2.0": {
       href: "https://dataoverheid.github.io/dcat-ap-donl/",
       title: "DCAT-AP-DONL-2.0",
-      authors: [
-        "Jan Meijer; Huub van Oers; Kees Trautwein. data.overheid.nl.",
-      ],
+      authors: ["Jan Meijer; Huub van Oers; Kees Trautwein. data.overheid.nl."],
       date: "2022-11-24",
     },
-    "DCAT-AP-3.0": {
-      href: "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
-      title: "DCAT-AP-3.0",
+    "DCAT-AP-DONL-1.1": {
+      href: "https://dcat-ap-donl.readthedocs.io/en/latest/",
+      title: "DCAT-AP-DONL-1.1",
       authors: [
-        "Jan Skornsek, Ine de Visser",
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties.",
       ],
-      date: "2024-04-16",
+      date: "2022-11-24",
     },
     DONL: {
       href: "https://data.overheid.nl",
