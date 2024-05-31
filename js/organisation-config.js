@@ -176,7 +176,7 @@ var organisationConfig = {
       date: "",
     },
     LM: {
-      href: "https://regels.overheid.nl/publicaties/de-legitimaat",
+      href: "https://regels.overheid.nl/publicaties/legitimaat",
       title: "De LegitiMaat",
       authors: ["ministerie van Binnenlandse Zaken en Koninkrijksrelaties."],
       date: "Juli 2022",
