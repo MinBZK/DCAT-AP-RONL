@@ -12,9 +12,9 @@ let respecConfig = {
   publishDate: "2024-05-14",
   publishVersion: "1.2.3",
 
-  previousPublishVersion: "1.2.2",
-  previousPublishDate: "2023-12-07",
-  previousMaturity: "WV",
+  previousPublishVersion: "",
+  previousPublishDate: "",
+  previousMaturity: "",
   title: "DCAT-AP-RONL",
   subtitle:
     "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
