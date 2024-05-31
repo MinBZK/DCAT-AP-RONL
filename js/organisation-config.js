@@ -199,6 +199,18 @@ var organisationConfig = {
       authors: ["Logius."],
       date: "",
     },
+    SC: {
+      href: "https://www.logius.nl/domeinen/interactie/samenwerkende-catalogi/wat-is-het",
+      title: "Samenwerkende Catalogi (SC)",
+      authors: ["Logius."],
+      date: "",
+    },
+    SDG: {
+      href: "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/europa/single-digitale-gateway/",
+      title: "Single Digital Gateway (SDG)",
+      authors: ["Europees Parlement."],
+      date: "2 oktober 2018",
+    },
     DATA_EU: {
       href: "https://data.europa.eu/en",
       title: "data.europa.eu",
