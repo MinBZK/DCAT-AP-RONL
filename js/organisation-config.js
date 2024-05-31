@@ -211,6 +211,12 @@ var organisationConfig = {
       authors: ["Europees Parlement."],
       date: "2 oktober 2018",
     },
+    PUC: {
+      href: "https://puc.overheid.nl/",
+      title: "Publicatieplatform UitvoeringsContent (PUC)",
+      authors: ["Logius."],
+      date: "",
+    },
     DATA_EU: {
       href: "https://data.europa.eu/en",
       title: "data.europa.eu",
