@@ -181,6 +181,12 @@ var organisationConfig = {
       authors: ["ministerie van Binnenlandse Zaken en Koninkrijksrelaties."],
       date: "Juli 2022",
     },
+    "CPSV-AP": {
+      href: "https://semiceu.github.io/CPSV-AP/releases/3.2.0/",
+      title: "Core Public Service Vocabulary Application Profile (CPSV-AP)",
+      authors: ["Core Public Service Vocabulary Working Group."],
+      date: "2024-05-06",
+    },
     UPL: {
       href: "https://standaarden.overheid.nl/upl",
       title: "Uniforme Productnamenlijst",
