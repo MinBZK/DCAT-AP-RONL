@@ -3,7 +3,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "cc0",
-  specStatus: "CV",
+  specStatus: "def",
   specType: "ST",
   pubDomain: "ronl",
 
