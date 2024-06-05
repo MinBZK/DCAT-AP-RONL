@@ -241,5 +241,17 @@ var organisationConfig = {
       publisher:
         "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
     },
+    OWMS_ORGANISATIE: {
+      title: "overheid:Organisatie (standaarden.overheid.nl)",
+      href: "https://standaarden.overheid.nl/owms/terms/Organisatie",
+      publisher:
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
+    },
+    OWMS_40: {
+      title: "OWMS 4.0",
+      href: "https://standaarden.overheid.nl/owms/terms",
+      publisher:
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
+    },
   },
 };
