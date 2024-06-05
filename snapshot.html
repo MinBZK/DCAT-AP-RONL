@@ -3,6 +3,15 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
 <meta name="generator" content="ReSpec 34.1.4">
 <style>
+span.example-title{text-transform:none}
+:is(aside,div).example,div.illegal-example{padding:.5em;margin:1em 0;position:relative;clear:both}
+div.illegal-example{color:red}
+div.illegal-example p{color:#000}
+:is(aside,div).example{border-left-width:.5em;border-left-style:solid;border-color:#e0cb52;background:#fcfaee}
+aside.example div.example{border-left-width:.1em;border-color:#999;background:#fff}
+.example pre{background-color:rgba(0,0,0,.03)}
+</style>
+<style>
 .issue-label{text-transform:initial}
 .warning>p:first-child{margin-top:0}
 .warning{padding:.5em;border-left-width:.5em;border-left-style:solid}
@@ -122,6 +131,20 @@ ul.index code{color:inherit}
 }
 </style>
 <meta name="description" content="Deze specificatie is onderdeel van regels.overheid.nl.">
+<style>
+.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;background:#fafafa}
+.hljs-comment,.hljs-quote{color:#717277;font-style:italic}
+.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4}
+.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;font-weight:700}
+.hljs-literal{color:#0b76c5}
+.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c}
+.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01}
+.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801}
+.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3}
+.hljs-emphasis{font-style:italic}
+.hljs-strong{font-weight:700}
+.hljs-link{text-decoration:underline}
+</style>
 <style>
 
   .sidelabel {
@@ -525,7 +548,7 @@ ul.index code{color:inherit}
 <p>Doel van dit DCAT profiel is om beschrijvingen van regels te verzamelen in <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> die compatibel zijn met het <cite><a data-matched-text="[[[DCAT-AP-NL-3.0]]]" href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">DCAT-AP-NL-3.0</a></cite> profiel voor <cite><a data-matched-text="[[[DONL]]]" href="https://data.overheid.nl">data.overheid.nl</a></cite>.</p>
 <p>Het is mede gebaseerd op het toepassingsprofiel van <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://semiceu.github.io//DCAT-AP/releases/3.0.0/">DCAT-AP-3.0</a></cite> van de EU voor uitwisseling tussen gegevenscatalogi in Nederland. <cite><a data-matched-text="[[[DCAT-AP-NL-3.0]]]" href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">DCAT-AP-NL-3.0</a></cite> is een doorontwikkeling van <cite><a data-matched-text="[[[DCAT-AP-DONL-2.0]]]" href="https://dataoverheid.github.io/dcat-ap-donl/">DCAT-AP-DONL-2.0</a></cite>.</p>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie"><bdi class="secno">1.1 </bdi>Introductie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-ap-nl"><bdi class="secno">1.1.1 </bdi>DCAT-AP NL</a></li><li class="tocline"><a class="tocxref" href="#doel-dcat-ap-ronl"><bdi class="secno">1.1.2 </bdi>Doel DCAT-AP-RONL</a></li></ol></li><li class="tocline"><a class="tocxref" href="#producten-en-diensten"><bdi class="secno">1.2 </bdi>Producten en diensten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#core-public-service-vocabulary-application-profile"><bdi class="secno">1.2.1 </bdi>Core Public Service Vocabulary Application Profile</a></li><li class="tocline"><a class="tocxref" href="#samenwerkende-catalogi"><bdi class="secno">1.2.2 </bdi>Samenwerkende Catalogi</a></li><li class="tocline"><a class="tocxref" href="#de-uniforme-productnamenlijst-upl"><bdi class="secno">1.2.3 </bdi>De Uniforme Productnamenlijst (UPL)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#de-legitimaat"><bdi class="secno">1.3 </bdi>De LegitiMaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#het-bereik-van-de-legitimaat"><bdi class="secno">1.3.1 </bdi>Het bereik van De LegitiMaat</a></li><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">1.3.2 </bdi>Aanpak</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#structuur-van-het-toepassingsprofiel"><bdi class="secno">2. </bdi>Structuur van het toepassingsprofiel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-als-universeel-vocabulaire"><bdi class="secno">2.1 </bdi>DCAT als universeel vocabulaire</a></li><li class="tocline"><a class="tocxref" href="#overzicht-klassen"><bdi class="secno">2.2 </bdi>Overzicht Klassen</a></li><li class="tocline"><a class="tocxref" href="#relatie-andere-profielen"><bdi class="secno">2.3 </bdi>Relatie andere profielen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#klassen"><bdi class="secno">3. </bdi>Klassen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#regelset-ronl-rulesset"><bdi class="secno">3.1 </bdi>Regelset - ronl:RulesSet</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eigenschappen"><bdi class="secno">3.1.1 </bdi>Eigenschappen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dct-identifier"><bdi class="secno">3.1.1.1 </bdi>identifier</a></li><li class="tocline"><a class="tocxref" href="#dct-title"><bdi class="secno">3.1.1.2 </bdi>title</a></li><li class="tocline"><a class="tocxref" href="#dct-description"><bdi class="secno">3.1.1.3 </bdi>description</a></li><li class="tocline"><a class="tocxref" href="#dct-creator"><bdi class="secno">3.1.1.4 </bdi>creator</a></li><li class="tocline"><a class="tocxref" href="#dcat-contactPoint"><bdi class="secno">3.1.1.5 </bdi>contact point</a></li><li class="tocline"><a class="tocxref" href="#dcat-theme"><bdi class="secno">3.1.1.6 </bdi>theme/category</a></li><li class="tocline"><a class="tocxref" href="#ronl-analysis"><bdi class="secno">3.1.1.7 </bdi>analysis</a></li><li class="tocline"><a class="tocxref" href="#ronl-method"><bdi class="secno">3.1.1.8 </bdi>method</a></li><li class="tocline"><a class="tocxref" href="#dcat-keyword"><bdi class="secno">3.1.1.9 </bdi>keyword/tag</a></li><li class="tocline"><a class="tocxref" href="#dct-issued"><bdi class="secno">3.1.1.10 </bdi>release date</a></li><li class="tocline"><a class="tocxref" href="#dct-modified"><bdi class="secno">3.1.1.11 </bdi>update/modification date</a></li><li class="tocline"><a class="tocxref" href="#ronl-distribution"><bdi class="secno">3.1.1.12 </bdi>distribution</a></li><li class="tocline"><a class="tocxref" href="#dcat-landingPage"><bdi class="secno">3.1.1.13 </bdi>landing page</a></li><li class="tocline"><a class="tocxref" href="#adms-identifier"><bdi class="secno">3.1.1.14 </bdi>other identifier</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#distributie-ronl-distribution"><bdi class="secno">3.2 </bdi>Distributie - ronl:Distribution</a></li><li class="tocline"><a class="tocxref" href="#regelservice-ronl-rulesservice"><bdi class="secno">3.3 </bdi>Regelservice - ronl:RulesService</a></li></ol></li><li class="tocline"><a class="tocxref" href="#waardelijsten"><bdi class="secno">4. </bdi>Waardelijsten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#analyse-ronl-analysis"><bdi class="secno">4.1 </bdi>Analyse - ronl:Analysis</a></li><li class="tocline"><a class="tocxref" href="#methode-ronl-method"><bdi class="secno">4.2 </bdi>Methode - ronl:Method</a></li><li class="tocline"><a class="tocxref" href="#licentie-ronl-license"><bdi class="secno">4.3 </bdi>Licentie - ronl:License</a></li><li class="tocline"><a class="tocxref" href="#distributie-type-ronl-distributiontype"><bdi class="secno">4.4 </bdi>Distributie Type - ronl:DistributionType</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">5. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">6. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</a></li></ol></li></ol></nav><section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#introductie"><bdi class="secno">1.1 </bdi>Introductie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-ap-nl"><bdi class="secno">1.1.1 </bdi>DCAT-AP NL</a></li><li class="tocline"><a class="tocxref" href="#doel-dcat-ap-ronl"><bdi class="secno">1.1.2 </bdi>Doel DCAT-AP-RONL</a></li></ol></li><li class="tocline"><a class="tocxref" href="#producten-en-diensten"><bdi class="secno">1.2 </bdi>Producten en diensten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#core-public-service-vocabulary-application-profile"><bdi class="secno">1.2.1 </bdi>Core Public Service Vocabulary Application Profile</a></li><li class="tocline"><a class="tocxref" href="#samenwerkende-catalogi"><bdi class="secno">1.2.2 </bdi>Samenwerkende Catalogi</a></li><li class="tocline"><a class="tocxref" href="#de-uniforme-productnamenlijst-upl"><bdi class="secno">1.2.3 </bdi>De Uniforme Productnamenlijst (UPL)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#de-legitimaat"><bdi class="secno">1.3 </bdi>De LegitiMaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#het-bereik-van-de-legitimaat"><bdi class="secno">1.3.1 </bdi>Het bereik van De LegitiMaat</a></li><li class="tocline"><a class="tocxref" href="#aanpak"><bdi class="secno">1.3.2 </bdi>Aanpak</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#structuur-van-het-toepassingsprofiel"><bdi class="secno">2. </bdi>Structuur van het toepassingsprofiel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dcat-als-universeel-vocabulaire"><bdi class="secno">2.1 </bdi>DCAT als universeel vocabulaire</a></li><li class="tocline"><a class="tocxref" href="#overzicht-klassen"><bdi class="secno">2.2 </bdi>Overzicht Klassen</a></li><li class="tocline"><a class="tocxref" href="#relatie-andere-profielen"><bdi class="secno">2.3 </bdi>Relatie andere profielen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#klassen"><bdi class="secno">3. </bdi>Klassen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#regelset-ronl-rulesset"><bdi class="secno">3.1 </bdi>Regelset - ronl:RulesSet</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#eigenschappen"><bdi class="secno">3.1.1 </bdi>Eigenschappen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#dct-identifier"><bdi class="secno">3.1.1.1 </bdi>identifier</a></li><li class="tocline"><a class="tocxref" href="#dct-title"><bdi class="secno">3.1.1.2 </bdi>title</a></li><li class="tocline"><a class="tocxref" href="#dct-description"><bdi class="secno">3.1.1.3 </bdi>description</a></li><li class="tocline"><a class="tocxref" href="#dct-creator"><bdi class="secno">3.1.1.4 </bdi>creator</a></li><li class="tocline"><a class="tocxref" href="#dcat-contactPoint"><bdi class="secno">3.1.1.5 </bdi>contact point</a></li><li class="tocline"><a class="tocxref" href="#dcat-theme"><bdi class="secno">3.1.1.6 </bdi>theme/category</a></li><li class="tocline"><a class="tocxref" href="#ronl-analysis"><bdi class="secno">3.1.1.7 </bdi>analysis</a></li><li class="tocline"><a class="tocxref" href="#ronl-method"><bdi class="secno">3.1.1.8 </bdi>method</a></li><li class="tocline"><a class="tocxref" href="#dcat-keyword"><bdi class="secno">3.1.1.9 </bdi>keyword/tag</a></li><li class="tocline"><a class="tocxref" href="#dct-issued"><bdi class="secno">3.1.1.10 </bdi>release date</a></li><li class="tocline"><a class="tocxref" href="#dct-modified"><bdi class="secno">3.1.1.11 </bdi>update/modification date</a></li><li class="tocline"><a class="tocxref" href="#ronl-distribution"><bdi class="secno">3.1.1.12 </bdi>distribution</a></li><li class="tocline"><a class="tocxref" href="#dcat-landingPage"><bdi class="secno">3.1.1.13 </bdi>landing page</a></li><li class="tocline"><a class="tocxref" href="#adms-identifier"><bdi class="secno">3.1.1.14 </bdi>other identifier</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#distributie-ronl-distribution"><bdi class="secno">3.2 </bdi>Distributie - ronl:Distribution</a></li><li class="tocline"><a class="tocxref" href="#regelservice-ronl-rulesservice"><bdi class="secno">3.3 </bdi>Regelservice - ronl:RulesService</a></li></ol></li><li class="tocline"><a class="tocxref" href="#waardelijsten"><bdi class="secno">4. </bdi>Waardelijsten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#analyse-ronl-analysis"><bdi class="secno">4.1 </bdi>Analyse - ronl:Analysis</a></li><li class="tocline"><a class="tocxref" href="#methode-ronl-method"><bdi class="secno">4.2 </bdi>Methode - ronl:Method</a></li><li class="tocline"><a class="tocxref" href="#licentie-ronl-license"><bdi class="secno">4.3 </bdi>Licentie - ronl:License</a></li><li class="tocline"><a class="tocxref" href="#distributie-type-ronl-distributiontype"><bdi class="secno">4.4 </bdi>Distributie Type - ronl:DistributionType</a></li><li class="tocline"><a class="tocxref" href="#waardelijst-overheid-Organisatie"><bdi class="secno">4.5 </bdi>overheid:Organisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">5. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">6. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</a></li></ol></li></ol></nav><section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
 <section id="introductie"><div class="header-wrapper"><h3 id="x1-1-introductie"><bdi class="secno">1.1 </bdi>Introductie</h3><a class="self-link" href="#introductie" aria-label="Permalink for Section 1.1"></a></div>
 <section id="dcat-ap-nl"><div class="header-wrapper"><h4 id="x1-1-1-dcat-ap-nl"><bdi class="secno">1.1.1 </bdi>DCAT-AP NL</h4><a class="self-link" href="#dcat-ap-nl" aria-label="Permalink for Section 1.1.1"></a></div>
 <p>Om gestandaardiseerd metadata uit te wisselen tussen verschillende dataportalen heeft Europa het <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://semiceu.github.io//DCAT-AP/releases/3.0.0/">DCAT-AP-3.0</a></cite> ontwikkeld. <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://semiceu.github.io//DCAT-AP/releases/3.0.0/">DCAT-AP-3.0</a></cite> is gebaseerd op de "Data Catalog Vocabulary" (DCAT) -specificatie <cite><a data-matched-text="[[[DCAT-AP-3.0]]]" href="https://semiceu.github.io//DCAT-AP/releases/3.0.0/">DCAT-AP-3.0</a></cite>, die wordt ontwikkeld door de Dataset Exchange Working Group. DCAT is een RDF-vocabulaire die ontworpen is om de interoperabiliteit tussen op het web gepubliceerde datacatalogi te vergemakkelijken. Dit profiel faciliteert de uitwisseling van metadata van verschillende domeinen tussen Nederlandse datacatalogi van (semi)overheidsorganisaties op lokaal, regionaal en landelijk nivo en tussen Nederlandse datacatalogi en EU datacatalogi, Het definieert het schema en geeft voorbeelden voor het gebruik ervan.</p>
@@ -788,9 +811,7 @@ oorspronkelijke identificatie van de resource genomen zoals de eigenaar deze gep
 <td>Mandatory</td>
 </tr>
 </tbody></table>
-</section><section id="description"><div class="header-wrapper"><h5 id="dct-description"><bdi class="secno">3.1.1.3 </bdi>description</h5><a class="self-link" href="#dct-description" aria-label="Permalink for Section 3.1.1.3"></a></div><p>Een beschrijving de resource. Om ervoor te zorgen dat eindgebruikers de regelspecificatie set goed kunnen vinden is het belangrijk dat de tekst goede
-trefwoorden bevat.</p>
-<p>Zie <a href="#ondersteuning-voor-meertaligheid">meertaligheid</a> voor het omgaan met verschillende talen.</p>
+</section><section id="description"><div class="header-wrapper"><h5 id="dct-description"><bdi class="secno">3.1.1.3 </bdi>description</h5><a class="self-link" href="#dct-description" aria-label="Permalink for Section 3.1.1.3"></a></div><p>Een beschrijving de resource. Om ervoor te zorgen dat eindgebruikers de regelspecificatie set goed kunnen vinden is het belangrijk dat de tekst goede trefwoorden bevat.</p>
 <table class="simple">
 <thead>
 <tr>
@@ -815,26 +836,7 @@ trefwoorden bevat.</p>
 <td>Mandatory</td>
 </tr>
 </tbody></table>
-</section><section id="creator"><div class="header-wrapper"><h5 id="dct-creator"><bdi class="secno">3.1.1.4 </bdi>creator</h5><a class="self-link" href="#dct-creator" aria-label="Permalink for Section 3.1.1.4"></a></div><p>De organisatie die verantwoordelijk is voor het creëren van de beschreven bron. Voor de invulling van deze eigenschap wordt vereist dat een concept uit een van de onderstaande waardelijsten gekozen wordt:</p>
-<table class="simple">
-<thead>
-<tr>
-<th>Naam</th>
-<th>Type</th>
-<th>Gebruik</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="#waardelijst-overheid-Organisatie"><code>waardelijst overheid:Organisatie</code></a></td>
-<td>Waardelijst</td>
-<td>Recommended</td>
-</tr>
-<tr>
-<td><a href="#waardelijst-donl-RelevantOrganization"><code>waardelijst donl:RelevantOrganization</code></a></td>
-<td>Waardelijst</td>
-<td>Optional</td>
-</tr>
-</tbody></table>
+</section><section id="creator"><div class="header-wrapper"><h5 id="dct-creator"><bdi class="secno">3.1.1.4 </bdi>creator</h5><a class="self-link" href="#dct-creator" aria-label="Permalink for Section 3.1.1.4"></a></div><p>De organisatie die verantwoordelijk is voor het creëren van de beschreven bron. Voor de invulling van deze eigenschap wordt vereist dat een concept uit de <a href="#waardelijst-overheid-Organisatie"><code>waardelijst overheid:Organisatie</code></a> gekozen wordt.</p>
 <table class="simple">
 <thead>
 <tr>
@@ -860,7 +862,7 @@ trefwoorden bevat.</p>
 </tr>
 </tbody></table>
 </section><section id="contact-point"><div class="header-wrapper"><h5 id="dcat-contactPoint"><bdi class="secno">3.1.1.5 </bdi>contact point</h5><a class="self-link" href="#dcat-contactPoint" aria-label="Permalink for Section 3.1.1.5"></a></div><p>Aan de hand van deze informatie kunnen eindgebruikers op <cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> contact opnemen met de eigenaar van de regelspecificatie set of dataservice. Bij het invullen van deze eigenschap is het belangrijk om een algemeen mailadres te gebruiken. Het is niet de bedoeling om hier gegevens van individuele personen op te nemen.</p>
-<p>Een geldig <code>dcat:contactPoint</code> bevat op zijn minst de eigenschap <code>vcard:fn</code> en een van de <code>vcard:hasEmail</code>, <code>vcard:hasTelephone</code> of <code>vcard:hasURL</code> eigenschappen. Voor een voorbeeld zie <a href="#example-contact-point">#Contact Point</a></p>
+<p>Een geldig <code>dcat:contactPoint</code> bevat op zijn minst de eigenschap <code>vcard:fn</code> en een van de <code>vcard:hasEmail</code>, <code>vcard:hasTelephone</code> of <code>vcard:hasURL</code> eigenschappen.</p>
 <table class="simple">
 <thead>
 <tr>
@@ -885,8 +887,29 @@ trefwoorden bevat.</p>
 <td>Mandatory</td>
 </tr>
 </tbody></table>
+<aside class="example" id="example-contact-point"><div class="marker">
+    <a class="self-link" href="#example-contact-point">Voorbeeld<bdi> 1</bdi></a><span class="example-title">: Contact point</span>
+  </div>
+    <pre>  <code aria-busy="false" class="hljs javascript">
+&lt;https:∕∕regels.overheid.nl∕ondersteuning∕algemeen∕contact&gt;
+a ronl:Rulesset;
+  dcat:contactPoint [a vcard:Organization ;
+  vcard:fn <span class="hljs-string">"regels.overheid.nl"</span>;
+  vcard:hasEmail <span class="hljs-string">"regels@minbzk.nl"</span>;
+  vcard:hasTelephone [ 
+    a vcard:Work,
+    <span class="hljs-attr">vcard</span>:Voice;
+    vcard:hasValue &lt;tel:<span class="hljs-number">31701234567</span>&gt; 
+    ];
+  vcard:hasURL <span class="hljs-string">"regels.overheid.nl"</span>;
+  ];
+.
+  </code></pre>
+</aside>
+
+
 </section><section id="theme-category"><div class="header-wrapper"><h5 id="dcat-theme"><bdi class="secno">3.1.1.6 </bdi>theme/category</h5><a class="self-link" href="#dcat-theme" aria-label="Permalink for Section 3.1.1.6"></a></div><p>Een thema uit de <cite><a data-matched-text="[[[OWMS_TAXONOMIEBELEIDSAGENDA]]]" href="https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda">overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)</a></cite>.</p>
-<p><cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> gebruikt <code>dcat:theme</code> om de regelspecificatie sets, dataservices en catalogi naar onderwerp in te delen. Door de eigenschap verplicht te stellen, kunnen eindgebruikers de betreffende resource altijd terugvinden wanneer zij via het thema zoeken of navigeren. De homepage toont standaard alle beschikbare thema's. De thema-indeling is hiërarchisch georganiseerd, zodat regelspecificatie sets ook aan meer specifieke subthema's kunnen worden gekoppeld, bijvoorbeeld subthema <code>Waterschappen</code> onder het thema <code>Bestuur</code>.</p>
+<p><cite><a data-matched-text="[[[RONL]]]" href="https://regels.overheid.nl">regels.overheid.nl</a></cite> gebruikt <code>dcat:theme</code> om de regelspecificatie sets naar onderwerp in te delen. Door de eigenschap verplicht te stellen, kunnen eindgebruikers de betreffende regelspecificatie set altijd terugvinden wanneer zij via het thema zoeken of navigeren. De homepage toont standaard alle beschikbare thema's. De thema-indeling is hiërarchisch georganiseerd, zodat regelspecificatie sets ook aan meer specifieke subthema's kunnen worden gekoppeld, bijvoorbeeld subthema <code>Waterschappen</code> onder het thema <code>Bestuur</code>.</p>
 <table class="simple">
 <thead>
 <tr>
@@ -1078,6 +1101,28 @@ trefwoorden bevat.</p>
 <p>Bevat termen die de licentie van een <code>ronl:RulesSet</code> óf <code>ronl:Distribution</code> beschrijven.</p>
 </section><section id="distributie-type-ronl-distributiontype"><div class="header-wrapper"><h3 id="x4-4-distributie-type-ronl-distributiontype"><bdi class="secno">4.4 </bdi>Distributie Type - ronl:DistributionType</h3><a class="self-link" href="#distributie-type-ronl-distributiontype" aria-label="Permalink for Section 4.4"></a></div>
 <p>Bevat termen die het type van een <code>ronl:Distribution</code> beschrijven.</p>
+</section><section id="overheid-organisatie"><div class="header-wrapper"><h3 id="waardelijst-overheid-Organisatie"><bdi class="secno">4.5 </bdi>overheid:Organisatie</h3><a class="self-link" href="#waardelijst-overheid-Organisatie" aria-label="Permalink for Section 4.5"></a></div><p>Deze taxonomie bevat concepten die de overheidsorganisaties van de Nederland beschrijven. Deze lijst komt uit de
+<a data-matched-text="[[[OWMS_40]]]" class="respec-offending-element" title="Couldn't find a match for &quot;OWMS_40&quot;" id="respec-offender-couldn-t-find-a-match-for-owms_40">[[[OWMS_40]]]</a> en is raadpleegbaar via <a data-matched-text="[[[OWMS_ORGANISATIE]]]" class="respec-offending-element" title="Couldn't find a match for &quot;OWMS_ORGANISATIE&quot;" id="respec-offender-couldn-t-find-a-match-for-owms_organisatie">[[[OWMS_ORGANISATIE]]]</a>.</p>
+<table class="simple">
+<thead>
+<tr>
+<th>Serialisatie</th>
+<th>Adres</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>XML</td>
+<td><a href="https://standaarden.overheid.nl/owms/terms/Organisatie.xml">https://standaarden.overheid.nl/owms/terms/Organisatie.xml</a></td>
+</tr>
+<tr>
+<td>RDF/XML</td>
+<td><a href="https://standaarden.overheid.nl/owms/terms/Organisatie.rdf">https://standaarden.overheid.nl/owms/terms/Organisatie.rdf</a></td>
+</tr>
+<tr>
+<td>N3</td>
+<td><a href="https://standaarden.overheid.nl/owms/terms/Organisatie.n3">https://standaarden.overheid.nl/owms/terms/Organisatie.n3</a></td>
+</tr>
+</tbody></table>
 </section></section>
   <script>
     let content = "";
@@ -1130,6 +1175,10 @@ trefwoorden bevat.</p>
       <a href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"><cite>DCAT-AP-NL-3.0</cite></a>. Jan Skornsek, Ine de Visser. 2024-04-16. URL: <a href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/">https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/</a>
     </dd><dt id="bib-dcatap_21">[DCATAP_21]</dt><dd>
       <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210"><cite>DCAT-AP 2.1</cite></a>. The Publications Office of the European Union.. URL: <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210">https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210</a>
+    </dd><dt id="bib-owms_40">[OWMS_40]</dt><dd>
+      <em class="respec-offending-element">Reference not found.</em>
+    </dd><dt id="bib-owms_organisatie">[OWMS_ORGANISATIE]</dt><dd>
+      <em class="respec-offending-element">Reference not found.</em>
     </dd><dt id="bib-owms_taxonomiebeleidsagenda">[OWMS_TAXONOMIEBELEIDSAGENDA]</dt><dd>
       <a href="https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda"><cite>overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)</cite></a>.  Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties. URL: <a href="https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda">https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda</a>
     </dd><dt id="bib-ronl">[RONL]</dt><dd>
