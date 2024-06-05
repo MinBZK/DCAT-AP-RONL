@@ -235,5 +235,11 @@ var organisationConfig = {
       authors: ["World Wide Web Consortium"],
       date: "February 2020",
     },
+    OWMS_TAXONOMIEBELEIDSAGENDA: {
+      title: "overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)",
+      href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda",
+      publisher:
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
+    },
   },
 };
