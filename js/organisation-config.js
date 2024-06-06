@@ -259,5 +259,10 @@ var organisationConfig = {
       publisher:
         "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
     },
+    HTTPS_EN_HSTS: {
+      title: "HTTPS en HSTS",
+      href: "https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts",
+      publisher: "Forum Standaardisatie",
+    },
   },
 };
