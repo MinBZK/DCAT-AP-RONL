@@ -253,5 +253,11 @@ var organisationConfig = {
       publisher:
         "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
     },
+    OWMS_UPL: {
+      title: "overheid:UPL (standaarden.overheid.nl)",
+      href: "https://standaarden.overheid.nl/owms/terms/UniformeProductnaam.html",
+      publisher:
+        "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
+    },
   },
 };
