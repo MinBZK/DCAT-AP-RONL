@@ -264,5 +264,15 @@ var organisationConfig = {
       href: "https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts",
       publisher: "Forum Standaardisatie",
     },
+    IANA_MEDIATYPES: {
+      title: "IANA Mediatypes",
+      href: "https://www.iana.org/assignments/media-types/media-types.xhtml",
+      publisher: "Internet Assigned Numbers Authority",
+    },
+    MDR_FILETYPE: {
+      title: "mdr:Filetype (publications.europa.eu)",
+      href: "https://publications.europa.eu/resource/authority/file-type",
+      publisher: "The Publications Office of the European Union",
+    },
   },
 };
