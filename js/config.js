@@ -45,7 +45,7 @@ let respecConfig = {
   alternateFormats: [
     {
       label: "pdf",
-      uri: "DCAT-AP-RONL.pdf",
+      uri: "https://regels.overheid.nl/publicaties/dcat-ap-ronl/pdf",
     },
   ],
 };
