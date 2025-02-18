@@ -8,16 +8,16 @@ let respecConfig = {
   pubDomain: "ronl",
 
   // shortName = Repository name
-  shortName: "dcat-ap-ronl",
-  publishDate: "2024-05-31",
+  shortName: "cpsv-ap-ronl",
+  publishDate: "2025-02-18",
   publishVersion: "1.2.4",
 
   previousPublishVersion: "",
   previousPublishDate: "",
   previousMaturity: "",
-  title: "DCAT-AP-RONL",
+  title: "CPSV-AP-RONL",
   subtitle:
-    "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
+    "Het applicatie profiel van de Europese CPSV-AP standaard voor uitwisseling met regels.overheid.nl",
 
   // Content
   content: { ch01: "informative", ch02: "", ch03: "", ch04: "" },
@@ -39,13 +39,13 @@ let respecConfig = {
       url: "https://www.ictu.nl",
     },
   ],
-  github: "https://github.com/MinBZK/dcat-ap-ronl/",
+  github: "https://github.com/MinBZK/cpsv-ap-ronl/",
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
     {
       label: "pdf",
-      uri: "https://regels.overheid.nl/publicaties/dcat-ap-ronl/pdf",
+      uri: "https://regels.overheid.nl/publicaties/cpsv-ap-ronl/pdf",
     },
   ],
 };

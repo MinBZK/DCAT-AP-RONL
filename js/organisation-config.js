@@ -89,7 +89,7 @@ var organisationConfig = {
       vv: `Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
       basis: "Dit is een document zonder officiële status.",
     },
-    en: {
+    en: {31
       sotd: "Status of This Document",
       def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
       wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.`,
